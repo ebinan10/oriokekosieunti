@@ -1,0 +1,67 @@
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import './nav.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faContactBook, faContactCard, faHome, faPhone, 
+  faQuestion, faRightToBracket, faUser, faUserPlus } from '@fortawesome/free-solid-svg-icons'
+import companyLogo from '../images/companyLogo.jpg'
+import phoneLogo from '../icon/pngwing.com (1).png'
+
+const Nav = () => {
+
+      const [bglink, setBglink  ] = useState('max-w-[20%] a:w-0 h-[6vh] flex border-r-2 border-[white]  text-[white] items-center bg-[#ccc] ')
+
+  return (
+    <div className='w-full min-h-[25vh]  flex justify-center items-center h-[80px] color-[]'>
+        <div className="w-[20%]"><img className='h-[22vh] w-[24vw]' src={companyLogo} alt="" /></div>
+        <div className="min-w-[60%]  h-full flex flex-col justify-evenly">
+          <div className="w-full flex flex-col items-end justify-center ">
+            <div className="w-[30%] flex flex-col gap-2 justify-end">
+          <div className="w-full flex items-center gap-2 ">
+          <img className='' src={phoneLogo} alt="" />
+          <div className="w-3/4 flex flex-col ">
+            <h3 className='w-full text-md font-bold flex justify-center items-center'>Call us now</h3>
+            <h4>+2348135853802</h4>
+          </div>
+          </div>
+          <div className="w-full flex ">
+            <h4 className=' font-[italics] text-lg'>ebinan10@gmail.com</h4>
+            </div></div>
+          </div>
+          <div className="w-full flex items-end justify-center">
+            
+            <div className="w-full h-full flex"> 
+             
+              <Link className={bglink} to="/">
+              <h1 className='ml-6 w-full '>Home</h1>
+              <FontAwesomeIcon icon={faHome} className='w-1/4 h-3 mr-9'/>
+              </Link>
+             
+              <Link className={bglink} to="/contact">
+               <h1 className='ml-6 w-full '> Contact</h1>
+              <FontAwesomeIcon icon={faPhone} className='w-3 h-3 mr-[7vw]'/>
+              </Link>
+             
+              <Link className={bglink} to="/about">
+              <h1 className='ml-6 w-full '> About</h1>
+              <FontAwesomeIcon icon={faQuestion}  className='w-3  h-3 mr-[7vw]'/>
+              </Link>
+             
+              <Link className={bglink} to="/component1">
+              <h1 className=' w-full '> Our Product</h1>
+                </Link>
+              
+             
+              <Link className={bglink} to="/component2" >
+               <h1 className=' w-full '> Our Service</h1>
+                </Link>
+              
+            </div>
+             
+        </div>
+        </div>
+    </div>
+  )
+}
+
+export default Nav 
