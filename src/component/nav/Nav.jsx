@@ -9,7 +9,7 @@ import phoneLogo from '../icon/pngwing.com (1).png'
 
 const Nav = () => {
 
-      const [bglink, setBglink  ] = useState('max-w-[20%] a:w-0 h-[6vh] flex border-r-2 border-[white]  text-[white] items-center bg-[#ccc] ')
+      const [bglink, setBglink  ] = useState('max-w-[20%]  h-[6vh] flex border-r-2 border-[white]  text-[white] items-center bg-[#ccc] ')
 
   return (
     <div className='w-full min-h-[25vh]  flex justify-center items-center h-[80px] color-[]'>
@@ -33,17 +33,17 @@ const Nav = () => {
             <div className="w-full h-full flex"> 
              
               <Link className={bglink} to="/">
-              <h1 className='ml-6 w-full '>Home</h1>
+              <h1 className='ml-[3vw] w-full '>Home</h1>
               <FontAwesomeIcon icon={faHome} className='w-1/4 h-3 mr-9'/>
               </Link>
              
               <Link className={bglink} to="/contact">
-               <h1 className='ml-6 w-full '> Contact</h1>
+               <h1 className='ml-[3vw] w-full '> Contact</h1>
               <FontAwesomeIcon icon={faPhone} className='w-3 h-3 mr-[7vw]'/>
               </Link>
              
               <Link className={bglink} to="/about">
-              <h1 className='ml-6 w-full '> About</h1>
+              <h1 className='ml-[3vw] w-full '> About</h1>
               <FontAwesomeIcon icon={faQuestion}  className='w-3  h-3 mr-[7vw]'/>
               </Link>
              

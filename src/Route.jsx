@@ -32,9 +32,10 @@ const Rout = () => {
                 <Route path='component4' element={<Component4/>}/>
               
             </Routes>
-            <Mailer/>
+            {/* <Mailer/> */}
+            <Footer/>
         </Router>
-        <Footer/>
+        
     </div>
   )
 }
