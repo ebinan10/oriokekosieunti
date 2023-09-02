@@ -6,11 +6,11 @@ const About = () => {
     <div className=' '>
       <div className="w-full h-[2vh] bg-[#ccc]"></div>
         <div className="w-full  mx-auto bg-[#8c92a9] color-[#ccc] min-w-[80%] max-w-[1024px] flex flex-col justify-center items-center">
-            <div className="m-[50px] w-[90%] flex justify-center items-center">
-               <div className="w-full min-h-[70vh] flex justify-center  ">
-                <div className="w-1/2 flex flex-col justify-center items-center  ">
-                    <div className="w-full ">
-                    <h1 className='text-[white] text-2xl p-3'>SE</h1>
+            <div className="m-[50px] w-[90%]  justify-center items-center">
+               <div className="w-full min-h-[70vh] flex md:flex-row flex-col flex justify-center">
+                <div className="w-1/2 flex flex-col justify-center items-center">
+                    <div className="w-full">
+                    <h1 className='w-full text-start text-[white] text-start text-2xl p-3'>SE</h1>
                     <h4 className='bg-[white] text-lg p-5 text-justify'>Nuvie Drywall & 
                       Installation Enterprise was founded in September
                        2011. As a registered importers and installers of drywall 
@@ -35,7 +35,7 @@ const About = () => {
                            business.</h4>
                     </div>
                     <div className="w-full mt-[5vh]">
-                    <h1 className='text-[white] text-2xl p-3'>Our Mission/ Vision</h1>
+                    <h1 className='w-full text-[white] text-start text-2xl p-3'>Our Mission/ Vision</h1>
                       <h4 className='bg-[white] text-lg p-5 text-justify'>
                       Our Vision at Nuvie Drywall & Installation Enterprise, is to become a premier solution provider
                        company providing world leadership in the wall and ceiling industry.
@@ -45,7 +45,7 @@ const About = () => {
                       </h4>
                     </div>
                     <div className="w-full mt-[5vh]">
-                    <h1 className='text-[white] text-2xl p-3'>Health Safety and Environment</h1>
+                    <h1 className='w-full text-[white] text-start text-2xl p-3'>Health Safety and Environment</h1>
                       <h4 className='bg-[white] text-lg p-5 text-justify'>
                       The manpower of KKG is one of our most valuable resources. We ensure a safe workplace
                        for our staff and also to protect clients' investment and facilities, 
