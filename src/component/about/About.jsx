@@ -6,12 +6,12 @@ const About = () => {
     <div className=' '>
       <div className="w-full h-[2vh] bg-[#ccc]"></div>
         <div className="w-full  mx-auto bg-[#8c92a9] color-[#ccc] min-w-[80%] max-w-[1024px] flex flex-col justify-center items-center">
-            <div className="m-[50px] w-[90%]  justify-center items-center">
-               <div className="w-full min-h-[70vh] flex md:flex-row flex-col flex justify-center">
-                <div className="w-1/2 flex flex-col justify-center items-center">
+            <div className="md:m-[50px] m-[20px] w-[90%]  justify-center items-center">
+               <div className="w-full min-h-[70vh] flex md:flex-row flex-col-reverse flex justify-center">
+                <div className="md:w-1/2 w-full flex flex-col justify-center items-center">
                     <div className="w-full">
-                    <h1 className='w-full text-start text-[white] text-start text-2xl p-3'>SE</h1>
-                    <h4 className='bg-[white] text-lg p-5 text-justify'>Nuvie Drywall & 
+                    <h1 className='w-full text-start text-[white] text-start md:text-3xl text-xl p-3'>HSE</h1>
+                    <h4 className='bg-[white] md:text-lg text-md  p-5 text-justify'>Nuvie Drywall & 
                       Installation Enterprise was founded in September
                        2011. As a registered importers and installers of drywall 
                        partition and ceiling materials, we have partnered with top
@@ -35,8 +35,8 @@ const About = () => {
                            business.</h4>
                     </div>
                     <div className="w-full mt-[5vh]">
-                    <h1 className='w-full text-[white] text-start text-2xl p-3'>Our Mission/ Vision</h1>
-                      <h4 className='bg-[white] text-lg p-5 text-justify'>
+                    <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Our Mission/ Vision</h1>
+                      <h4 className='bg-[white] md:text-lg text-md p-5 text-justify'>
                       Our Vision at Nuvie Drywall & Installation Enterprise, is to become a premier solution provider
                        company providing world leadership in the wall and ceiling industry.
                         Our Mission is to form a long-term relationship of value with our clients 
@@ -45,8 +45,8 @@ const About = () => {
                       </h4>
                     </div>
                     <div className="w-full mt-[5vh]">
-                    <h1 className='w-full text-[white] text-start text-2xl p-3'>Health Safety and Environment</h1>
-                      <h4 className='bg-[white] text-lg p-5 text-justify'>
+                    <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Health Safety and Environment</h1>
+                      <h4 className='bg-[white] md:text-lg text-md p-5 text-justify'>
                       The manpower of KKG is one of our most valuable resources. We ensure a safe workplace
                        for our staff and also to protect clients' investment and facilities, 
                        our company has evolved a strong health and safety culture driven by a 
@@ -58,8 +58,8 @@ const About = () => {
                         </h4>
                     </div>
                 </div>
-                <div className="w-1/2 h-[50vh] flex justify-center items-start">
-                  <img src={companyLogo} className='ml-[4vw] mt-[30vh] h-[30vh] w-[30vw]' alt="" />
+                <div className="md:w-1/2 w-full h-[40vh] flex justify-center items-start">
+                  <img src={companyLogo} className='md:ml-[4vw] md:mt-[30vh] h-[36vh] mt-4 md:w-[30vw] w-full' alt="" />
                 </div>
                </div>
 

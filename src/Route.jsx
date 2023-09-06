@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from '././component/home/Home';
-import Component1 from './component/component1/Component1';
+import Product from './component/product/Product';
 import Component2 from './component/component2/Component2';
 import Component3 from './component/component3/Component3';
 import Component4 from './component/component4/Component4';
@@ -25,7 +25,7 @@ const Rout = () => {
                 <Route path='/' element={<Home/>} />
                 <Route path='contact' element={<Contact/>}/>
                 
-                <Route path='component1' element={<Component1/>}/>
+                <Route path='product' element={<Product/>}/>
                 <Route path='component2' element={<Component2/>}/>
                 <Route path='component3' element={<Component3/>}/>
                 <Route path='about' element={<About/>}/>

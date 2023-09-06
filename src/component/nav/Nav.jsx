@@ -6,18 +6,28 @@ import { faContactBook, faContactCard, faHome, faPhone,
   faQuestion, faRightToBracket, faUser, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import companyLogo from '../images/companyLogo.jpg'
 import phoneLogo from '../icon/pngwing.com (1).png'
+import amburger from '../icon/menu.png'
 
 const Nav = () => {
 
       const [bglink, setBglink  ] = useState('max-w-[20%]  h-[6vh] flex border-r-2 border-[white]  text-[white] items-center bg-[#ccc] ')
 
   return (
-    <div className='w-full min-h-[25vh]  flex justify-center items-center h-[80px] color-[]'>
-        <div className="w-[20%]"><img className='h-[22vh] w-[24vw]' src={companyLogo} alt="" /></div>
-        <div className="min-w-[60%]  h-full flex flex-col justify-evenly">
-          <div className="w-full flex flex-col items-end justify-center ">
-            <div className="w-[30%] flex flex-col gap-2 justify-end">
-          <div className="w-full flex items-center gap-2 ">
+    <div className='w-full md:min-h-[25vh] relative h-[30vh] flex justify-center md:flex-row flex-col items-center  '>
+      <div className="md:w-0 md:h-0 w-full h-[7vh]  flex justify-center items-center">
+      {/* <FontAwesomeIcon icon={faHan} className='w-1/4 h-3 mr-9'/> */}
+              
+        <img src={amburger} className='md:w-0 w-[8vw] absolute right-2 top-3 h-[5vh] md:h-0' alt="" /></div>
+        <div className="md:w-[20%] w-[0%]">
+          <img className='md:h-[22vh] h-0 w-0 md:w-[24vw]' src={companyLogo} alt="" />
+          </div>
+        <div className="md:min-w-[60%] w-full  h-full flex flex-col justify-evenly">
+          <div className="w-full flex md:flex-col flex-row items-end justify-center ">
+          <div className="md:w-[0%] w-[25%] flex justify-start">
+            <img className='h-[22vh] md:h-0 md:w-0 w-[20vw]' src={companyLogo} alt="" />
+          </div>
+            <div className="xl:w-[25%] md:w-[40%] w-3/4 flex flex-col gap-2 justify-end">
+          <div className="w-full flex items-center  ">
           <img className='' src={phoneLogo} alt="" />
           <div className="w-3/4 flex flex-col ">
             <h3 className='w-full text-md font-bold flex justify-center items-center'>Call us now</h3>
@@ -25,12 +35,12 @@ const Nav = () => {
           </div>
           </div>
           <div className="w-full flex ">
-            <h4 className=' font-[italics] text-lg'>ebinan10@gmail.com</h4>
+            <h4 className=' font-[italics] text-lg'>nuviedrywalls@gmail.com</h4>
             </div></div>
           </div>
-          <div className="w-full flex items-end justify-center">
+          <div className="md:w-full w-0 flex items-end justify-center">
             
-            <div className="w-full h-full flex"> 
+            <div className="w-full  h-full flex"> 
              
               <Link className={bglink} to="/">
               <h1 className='ml-[3vw] w-full '>Home</h1>
@@ -47,12 +57,12 @@ const Nav = () => {
               <FontAwesomeIcon icon={faQuestion}  className='w-3  h-3 mr-[7vw]'/>
               </Link>
              
-              <Link className={bglink} to="/component1">
+              <Link className={bglink} to="/product">
               <h1 className=' w-full '> Our Product</h1>
                 </Link>
               
              
-              <Link className={bglink} to="/component2" >
+              <Link className={bglink} to="/services" >
                <h1 className=' w-full '> Our Service</h1>
                 </Link>
               
