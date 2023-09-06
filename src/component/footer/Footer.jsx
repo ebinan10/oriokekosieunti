@@ -15,10 +15,10 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='w-full  flex flex-col justify-center items-center '>
-      <div className="w-full md:h-[70vh] h-[100vh] pr-[7vw] bg-[#ccc] w-full flex md:flex-row flex-col justify-center items-center">
-        <div className="md:w-3/5 w-[92%] mb-4 md:ml-0 ml-[5vw] text-[black] flex justify-evenly item-center">
-          <div className='mt-[10px] md:text-xl gap-3 text-md flex flex-col'>
-            <h3 className='md:m-[10px] h-[10vh] text-lg  font-bold'>Quick Links</h3>
+      <div className="w-full md:max-h-[70vh] max-h-[120vh]  bg-[#ccc] w-full flex md:flex-row flex-col justify-center items-center">
+        <div className="md:w-3/5 w-[92%] mb-4 h-[80%] md:ml-0 ml-[5vw] text-[black] flex justify-evenly item-center">
+          <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
+            <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Quick Links</h3>
             <Link  to="/contact" className=' md:m-[10px]  bg-transparent'> Contact</Link>
             <Link to="/" className=' md:m-[10px] bg-transparent'>Home</Link>
             <Link to="/" className=' md:m-[10px] bg-transparent'>Contact</Link>
@@ -27,26 +27,26 @@ const Footer = () => {
             <Link to="/" className=' md:m-[10px] bg-transparent'>Our Services</Link>
         </div> 
         
-        <div className='mt-[10px] md:text-xl gap-3 text-md flex flex-col'>
-          <h3 className='md:m-[10px] text-lg h-[10vh] font-bold'>Product Category</h3>
+        <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
+          <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Product Category</h3>
           <li className='md:m-[10px]'>first</li>
           <li className='md:m-[10px]'>second</li>
           <li className='md:m-[10px]'>third</li>
         </div>
-        <div className='mt-[10px] md:text-xl gap-3 text-md flex flex-col'>
-        <h3 className='md:m-[10px] h-[10vh] text-lg font-bold'>Content</h3>
+        <div className='mt-[10px] md:text-xl h-full md:mr-0 mr-3 gap-2 text-md flex flex-col'>
+        <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Content</h3>
           <li className='md:m-[10px]'>Email Address</li>
           <li className='md:m-[10px]'>Phone Number</li>
           <li className='md:m-[10px]'>Physical Address</li>
           <li className='md:m-[10px]'>Content Page</li>
         </div>
         </div>
-        <div className="md:w-1/4 w-4/5 h-[90px] flex flex-col gap-5 justify-center items-center bg-transparent">
+        <div className="md:w-1/4 w-4/5 h-[90px] my-[20px] flex flex-col gap-5 justify-center items-center bg-transparent">
         <div className="w-full flex justify-center items-center "><a  className='bg-transparent' href="www.twitter.com/ebinan10"><img className='ml-6 w-[6vw] h-[7vh] md:w-[4vw] md:h-[4vh]' src={Twitter} alt="" to></img></a>
         <a className='bg-transparent' href="www.facebook.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Facebook} alt="" ></img></a>
         <a className='bg-transparent' href="www.youtube.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Youtube} alt="" ></img></a>
         <a className='bg-transparent' href="www.linkedin.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Linkedin} alt=""></img></a>
-         </div>   <div><span className='text-xl mr-[7px] font-black'>&copy;</span>2023 Nuvie Dry Walls. All rights reserved.</div> 
+         </div>   <div><span className='text-xl mr-[7px]  font-black'>&copy;</span>2023 Nuvie Dry Walls. All rights reserved.</div> 
         </div>
         </div>
         <div className="md:w-1/2 w-3/5 h-[10vh] items-center flex m-auto justify-center md:gap-5 gap-2">

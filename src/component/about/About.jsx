@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className=' '>
       <div className="w-full h-[2vh] bg-[#ccc]"></div>
-        <div className="w-full  mx-auto bg-[#8c92a9] color-[#ccc] min-w-[80%] max-w-[1024px] flex flex-col justify-center items-center">
+        <div className="w-full  mx-auto bg-[#8c92a9] color-[#ccc] min-w-[95%] max-w-[1024px] flex flex-col justify-center items-center">
             <div className="md:m-[50px] m-[20px] w-[90%]  justify-center items-center">
                <div className="w-full min-h-[70vh] flex md:flex-row flex-col-reverse flex justify-center">
                 <div className="md:w-1/2 w-full flex flex-col justify-center items-center">

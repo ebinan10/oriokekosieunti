@@ -22,8 +22,8 @@ const Nav = () => {
           <img className='md:h-[22vh] h-0 w-0 md:w-[24vw]' src={companyLogo} alt="" />
           </div>
         <div className="md:min-w-[60%] w-full  h-full flex flex-col justify-evenly">
-          <div className="w-full flex md:flex-col flex-row items-end justify-center ">
-          <div className="md:w-[0%] w-[25%] flex justify-start">
+          <div className="w-full flex md:flex-col flex-row items-end justify-end ">
+          <div className="md:w-[0%] w-[25%] flex justify-center">
             <img className='h-[22vh] md:h-0 md:w-0 w-[20vw]' src={companyLogo} alt="" />
           </div>
             <div className="xl:w-[25%] md:w-[40%] w-3/4 flex flex-col gap-2 justify-end">
