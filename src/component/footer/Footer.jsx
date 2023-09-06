@@ -15,9 +15,9 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='w-full  flex flex-col justify-center items-center '>
-      <div className="w-full md:h-[70vh] h-[90vh] pr-[7vw] bg-[#ccc] w-full flex md:flex-row flex-col justify-center items-center">
-        <div className="md:w-3/5 w-[92%] mb-4 ml-2 text-[black] flex justify-evenly item-center">
-          <div className='mt-[40px] md:text-xl gap-3 text-md flex flex-col'>
+      <div className="w-full md:h-[70vh] h-[100vh] pr-[7vw] bg-[#ccc] w-full flex md:flex-row flex-col justify-center items-center">
+        <div className="md:w-3/5 w-[92%] mb-4 md:ml-0 ml-[5vw] text-[black] flex justify-evenly item-center">
+          <div className='mt-[10px] md:text-xl gap-3 text-md flex flex-col'>
             <h3 className='md:m-[10px] h-[10vh] text-lg  font-bold'>Quick Links</h3>
             <Link  to="/contact" className=' md:m-[10px]  bg-transparent'> Contact</Link>
             <Link to="/" className=' md:m-[10px] bg-transparent'>Home</Link>
@@ -27,13 +27,13 @@ const Footer = () => {
             <Link to="/" className=' md:m-[10px] bg-transparent'>Our Services</Link>
         </div> 
         
-        <div className='mt-[40px] md:text-xl gap-3 text-md flex flex-col'>
+        <div className='mt-[10px] md:text-xl gap-3 text-md flex flex-col'>
           <h3 className='md:m-[10px] text-lg h-[10vh] font-bold'>Product Category</h3>
           <li className='md:m-[10px]'>first</li>
           <li className='md:m-[10px]'>second</li>
           <li className='md:m-[10px]'>third</li>
         </div>
-        <div className='mt-[40px] md:text-xl gap-3 text-md flex flex-col'>
+        <div className='mt-[10px] md:text-xl gap-3 text-md flex flex-col'>
         <h3 className='md:m-[10px] h-[10vh] text-lg font-bold'>Content</h3>
           <li className='md:m-[10px]'>Email Address</li>
           <li className='md:m-[10px]'>Phone Number</li>

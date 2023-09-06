@@ -17,7 +17,7 @@ const Nav = () => {
       <div className="md:w-0 md:h-0 w-full h-[7vh]  flex justify-center items-center">
       {/* <FontAwesomeIcon icon={faHan} className='w-1/4 h-3 mr-9'/> */}
               
-        <img src={amburger} className='md:w-0 w-[8vw] absolute right-2 top-3 h-[5vh] md:h-0' alt="" /></div>
+        <img src={amburger} className='md:w-0 w-[8vw] absolute right-4 top-3 h-[5vh] md:h-0' alt="" /></div>
         <div className="md:w-[20%] w-[0%]">
           <img className='md:h-[22vh] h-0 w-0 md:w-[24vw]' src={companyLogo} alt="" />
           </div>
