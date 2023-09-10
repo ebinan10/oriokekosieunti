@@ -2,8 +2,8 @@ import React from 'react'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from '././component/home/Home';
 import Product from './component/product/Product';
-import Component2 from './component/component2/Component2';
-import Component3 from './component/component3/Component3';
+import Service from './component/service/Service';
+import Gallary from './component/gallary/Gallary';
 import Component4 from './component/component4/Component4';
 import Component5 from './component/component5/Component5';
 import Nav from './component/nav/Nav';
@@ -26,8 +26,8 @@ const Rout = () => {
                 <Route path='contact' element={<Contact/>}/>
                 
                 <Route path='product' element={<Product/>}/>
-                <Route path='component2' element={<Component2/>}/>
-                <Route path='component3' element={<Component3/>}/>
+                <Route path='service' element={<Service/>}/>
+                <Route path='gallary' element={<Gallary/>}/>
                 <Route path='about' element={<About/>}/>
                 <Route path='component4' element={<Component4/>}/>
               

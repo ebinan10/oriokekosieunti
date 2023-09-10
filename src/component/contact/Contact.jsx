@@ -24,8 +24,8 @@ const Contact = () => {
         <div className="md:w-4/5 w-[95%] h-full flex flex-col justify-center items-center">
         
             <div className="w-full h-full flex md:flex-row flex-col-reverse md:justify-center justify-evenly items-center">
-                <div className="md:w-1/2 w-full md:min-h-[35vh] min-h-[145vh] bg-[#ccc] flex flex-col justify-center item-center">
-                <h1 className='pb-3 w-full mt-2 flex  justify-center text-base-100 md:text-3xl text-2xl '>Contact</h1>
+                <div className="md:w-1/2 w-full md:min-h-[35vh] min-h-[125vh] bg-[#ccc] flex flex-col justify-center item-center">
+                <h1 className='pb-3 w-full flex md:mt-[5vh] justify-center text-base-100 md:text-3xl text-2xl '>Contact</h1>
               <div className="w-full"><h1 className=' md:text-3xl text-xl text-base-100 '> nuvie drywall & installation enterprise.</h1>
                <h1 className=' text-base-100 md:text-lg text-md'>  No 2 siro Street, Off Ikorodu Road,<br />
                 Fadeyi – Lagos.</h1></div> 
@@ -47,7 +47,7 @@ const Contact = () => {
                         <input type="text" className='border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Name' />
                         <input type="text" className='border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Email' />
                         <input type="text" className='border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Phone' />
-                        <input type="text" className='border-none md:mb-0 mb-2 md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Subject' />
+                        <input type="text" className='border-none md:mb-0 mb-[4vh] md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Subject' />
                     </form>
                     </div>
                     <div className="md:w-1/2 md:h-full h-4/5 w-[90%] m-auto flex flex-col justify-center bg-[ccc] items-center">
