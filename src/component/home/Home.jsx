@@ -28,7 +28,7 @@ const Home = () => {
               <h1 className='text-justify md:text-xl text-md md:mb-0 mb-3 leading-loose md:text-[#8c92ac] text-[white]'>Nuvie Drywall & Installation Enterprise, situated at Lagos, is a quality brand behind high 
               ceiling and drywall partition products, from wholesale supply to expert installation.  Our products are of affordable prices, aesthetic values, energy efficiency, 
               fire & moisture resistance, fast installation time, and low maintenance cost.<br />As the need for distinctive and extraordinary interior systems are ever growing, NDIE is constantly on the lookout for new products, 
-              innovative ideas, eco-friendly solutions to meet our customers demand.<br /> We at NDIE have dedicated & well trained staff who can address your queries and assist you with your requirement, assuring you of our
+              innovative ideas, eco-friendly solutions to meet our customers demand.<br /> We at NDWEI have dedicated & well trained staff who can address your queries and assist you with your requirement, assuring you of our
                finest products and services at all times. We do deliveries and installations locally and nationally at minimal fees.</h1>
             </div></div>
         </div>

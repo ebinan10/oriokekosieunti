@@ -21,9 +21,9 @@ const Contact = () => {
   <div className="w-full h-[2vh] bg-[#ccc] mx-auto"></div>
     <div className='w-full bg-[#8c92a9] flex-col md:h-[130vh] h-[205vh]  flex justify-center items-center'>
         
-        <div className="md:w-4/5 w-[95%] h-full flex flex-col justify-center items-center">
+        <div className="md:w-4/5 w-[100%] h-full flex flex-col justify-center items-center">
         
-            <div className="w-full h-full flex md:flex-row flex-col-reverse md:justify-center justify-evenly items-center">
+            <div className="w-full h-full mx-auto flex md:flex-row flex-col-reverse md:justify-center justify-evenly items-center">
                 <div className="md:w-1/2 w-full md:min-h-[35vh] min-h-[125vh] bg-[#ccc] flex flex-col justify-center item-center">
                 <h1 className='pb-3 w-full flex md:mt-[5vh] justify-center text-base-100 md:text-3xl text-2xl '>Contact</h1>
               <div className="w-full"><h1 className=' md:text-3xl text-xl text-base-100 '> nuvie drywall & installation enterprise.</h1>
@@ -40,10 +40,10 @@ const Contact = () => {
                     Tel: +234-8135853802
                     </h1>
                 </div>
-                <div className=" w-[97%] mt-[5vh] mb-[4vh] md:min-h-[50vh] min-h-[80vh] flex  m-auto justify-center bg-base-100 items-center">
-                <div className="w-[95%]  md:h-[34vh] h-[67vh] bg-[#ccc] flex md:flex-row flex-col md:gap-0  md:mt-0 mt-2 justify-center items-center ">
-                    <div className="md:w-1/2 w-full md:h-[90%] h-3/5 flex  md:justify-evenly justify-center items-center md:bg-[#ccc] bg-base-100">
-                        <form action="" className='md:w-[95%] w-full  h-full flex flex-col md:gap-1 gap-1 md:bg-transparent bg-[white]  item-center justify-between '>
+                <div className=" w-[95%] mt-[5vh] mb-[4vh] md:min-h-[50vh] min-h-[80vh] flex  m-auto justify-center bg-base-100 items-center">
+                <div className="w-[92%]  md:h-[34vh] h-[67vh] bg-[#ccc] flex md:flex-row flex-col md:gap-0  md:mt-0 mt-2 justify-center items-center ">
+                    <div className="md:w-1/2 w-full  md:h-[90%] h-3/5 flex  md:justify-evenly justify-center items-center md:bg-[#ccc] bg-base-100">
+                        <form action="" className='md:w-[93%] w-full  h-full flex flex-col md:gap-1 gap-1 md:bg-transparent bg-[white]  item-center justify-between '>
                         <input type="text" className='border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Name' />
                         <input type="text" className='border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Email' />
                         <input type="text" className='border-none md:bg-base-100 bg-[#ccc] outline-none focus:outline-none focus:ring-0 focus:border-none ' placeholder='Phone' />

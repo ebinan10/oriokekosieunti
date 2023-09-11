@@ -92,26 +92,26 @@ const Nav = () => {
           <div className="md:w-0 md:none md:h-0 w-full 
           h-[60vh] z-100 absolute top-0 right-0 flex-col items-end justify-center">
             
-            <div className=" w-full flex h-[60vh]   flex-col items-center justify-center"> 
-              <div className="w-full"><img src="" alt="" /></div>
+            <div className=" w-full flex h-[60vh] md:w-0 md:none md:h-0  flex-col items-center justify-center"> 
+              <div className="w-full md:w-0 md:none md:h-0"><img src="" alt="" /></div>
               <Link className={sglink} to="/">
-              <h1 className='ml-[3vw] w-full '>Home</h1>
+              <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0 '>Home</h1>
               </Link>
              
               <Link className={sglink} to="/contact">
-               <h1 className='ml-[3vw] w-full '> Contact</h1>
+               <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0'> Contact</h1>
               </Link>
              
               <Link className={sglink} to="/about">
-              <h1 className='ml-[3vw] w-full '> About</h1>
+              <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0'> About</h1>
               </Link>
              
               <Link className={sglink} to="/product">
-              <h1 className=' w-full '> Our Product</h1>
+              <h1 className=' w-full md:w-0 md:none md:h-0'> Our Product</h1>
                 </Link>
               
               <Link className={sglink} to="/services" >
-               <h1 className=' w-full '> Our Service</h1>
+               <h1 className=' w-full md:w-0 md:none md:h-0'> Our Service</h1>
                 </Link>
               
             </div>

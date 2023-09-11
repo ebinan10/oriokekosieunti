@@ -12,17 +12,15 @@ const About = () => {
                     <div className="w-full">
                     <h1 className='w-full text-start text-[white] text-start md:text-3xl text-xl p-3'>HSE</h1>
                     <h4 className='bg-[white] md:text-lg text-md  p-5 text-justify'>Nuvie Drywall & 
-                      Installation Enterprise was founded in September
-                       2011. As a registered importers and installers of drywall 
-                       partition and ceiling materials, we have partnered with top
-                        manufacturers in Europe, Asia and America to supply and 
-                      install top quality products for residential and commercial 
+                      Installation Enterprise was founded in early 2023. As a registered installers of drywall 
+                       partition and ceiling materials,  we do installation of 
+                      top quality products for residential and commercial 
                       buildings. We stock most various sizes of drywall and ceiling
                      materials that would be needed in the residential or commercial
-                      applications ranging from studs and tracks to metal profiles, 
+                      applications, 
                       wall angles, omega channels, gypsum boards, metal ceiling,
                        plaster compounds, adhesive, fasten and fixings.
-                      KKG has a fully trained and experienced team of operatives
+                      NDWEI has a fully trained and experienced team of operatives
                        that are capable of executing turn-key jobs, from interior
                         design to finishing of ceiling and drywall partition.We 
                         are familiar with all options that are currently available,
@@ -47,7 +45,7 @@ const About = () => {
                     <div className="w-full mt-[5vh]">
                     <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Health Safety and Environment</h1>
                       <h4 className='bg-[white] md:text-lg text-md p-5 text-justify'>
-                      The manpower of KKG is one of our most valuable resources. We ensure a safe workplace
+                      The manpower of NDWEI is one of our most valuable resources. We ensure a safe workplace
                        for our staff and also to protect clients' investment and facilities, 
                        our company has evolved a strong health and safety culture driven by a 
                        goal to achieve "zero accidents" and "zero man-hours lost".
