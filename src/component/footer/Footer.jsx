@@ -21,10 +21,11 @@ const Footer = () => {
             <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Quick Links</h3>
             <Link  to="/contact" className=' md:m-[10px]  bg-transparent'> Contact</Link>
             <Link to="/" className=' md:m-[10px] bg-transparent'>Home</Link>
-            <Link to="/" className=' md:m-[10px] bg-transparent'>Contact</Link>
-            <Link to="/" className=' md:m-[10px] bg-transparent'>About</Link>
-            <Link to="/" className=' md:m-[10px] bg-transparent'>Our Product</Link>
-            <Link to="/" className=' md:m-[10px] bg-transparent'>Our Services</Link>
+            <Link to="/contact" className=' md:m-[10px] bg-transparent'>Contact</Link>
+            <Link to="/about" className=' md:m-[10px] bg-transparent'>About</Link>
+            <Link to="/product" className=' md:m-[10px] bg-transparent'>Our Product</Link>
+            <Link to="/service" className=' md:m-[10px] bg-transparent'>Our Services</Link>
+            <Link to="/gallary" className=' md:m-[10px] bg-transparent'>Gallary</Link>
         </div> 
         
         <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>

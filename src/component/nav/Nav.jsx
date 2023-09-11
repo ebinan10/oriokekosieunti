@@ -110,10 +110,14 @@ const Nav = () => {
               <h1 className=' w-full md:w-0 md:none md:h-0'> Our Product</h1>
                 </Link>
               
-              <Link className={sglink} to="/services" >
+              <Link className={sglink} to="/service" >
                <h1 className=' w-full md:w-0 md:none md:h-0'> Our Service</h1>
                 </Link>
               
+                <Link className={bglink} to="/gallary" >
+               <h1 className=' w-full '> Gallary</h1>
+                </Link>
+                
             </div>
              
         </div>
