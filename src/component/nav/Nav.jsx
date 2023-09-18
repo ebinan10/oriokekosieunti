@@ -35,13 +35,13 @@ const Nav = () => {
     <label className='menu-button-container md:hidden w-1/5  ml-auto' for="menu-toggle">
     <div class='menu-button md:hidden'></div>
   </label>
-   <ul className='menu md:hidden w-3/4 m-auto mt-[21vh] bg-[#8c92a9] text-md'>
-    <li className='z-100  h-[7vh] cursor-pointer'>
+   <ul className='menu md:hidden w-full m-auto mt-[21vh] bg-[#8c92a9] text-md'>
+    <li className='z-100 w-3/4 h-[7vh] cursor-pointer'>
    <Link className={sglink} to="/">
               <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0 '>Home</h1>
               </Link>
              </li>
-             <li>
+             <li className='z-100 w-3/4 h-[7vh] cursor-pointer'>
               <Link className={sglink} to="/contact">
                <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0'> Contact</h1>
               </Link>
