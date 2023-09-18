@@ -30,16 +30,16 @@ const Footer = () => {
         
         <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
           <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Product Category</h3>
-          <li className='md:m-[10px]'>first</li>
-          <li className='md:m-[10px]'>second</li>
-          <li className='md:m-[10px]'>third</li>
+          <li className='md:m-[10px] list-none'>first</li>
+          <li className='md:m-[10px] list-none'>second</li>
+          <li className='md:m-[10px] list-none'>third</li>
         </div>
         <div className='mt-[10px] md:text-xl h-full md:mr-0 mr-3 gap-2 text-md flex flex-col'>
         <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Content</h3>
-          <li className='md:m-[10px]'>Email Address</li>
-          <li className='md:m-[10px]'>Phone Number</li>
-          <li className='md:m-[10px]'>Physical Address</li>
-          <li className='md:m-[10px]'>Content Page</li>
+          <li className='md:m-[10px] list-none'>Email Address</li>
+          <li className='md:m-[10px] list-none'>Phone Number</li>
+          <li className='md:m-[10px] list-none'>Physical Address</li>
+          <li className='md:m-[10px] list-none'>Content Page</li>
         </div>
         </div>
         <div className="md:w-1/4 w-4/5 h-[90px] my-[20px] flex flex-col gap-5 justify-center items-center bg-transparent">

@@ -19,7 +19,7 @@ const Rout = () => {
       
         <Router>
           {/* <Header/> */}
-          <Nav/>
+          <Nav/> 
             <Routes>
               
                 <Route path='/' element={<Home/>} />

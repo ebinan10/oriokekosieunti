@@ -3,7 +3,7 @@ import companyLogo from '../images/companyLogo.jpg'
 
 const Home = () => {
   return (
-    <div className='md:min-h-[67vh]  min-h-[40vh] w-full flex items-center justify-center color-[rgb(12, 48, 80)]'>
+    <div className='md:min-h-[67vh] min-h-[40vh] w-full flex items-center justify-center color-[rgb(12, 48, 80)]'>
         <div className="h-full w-full flex flex-col items-center justify-center">
             <div className="h-full w-full flex items-center justify-center ">
                 {/* <div className="h-full w-full">
@@ -15,9 +15,13 @@ const Home = () => {
                 {/* <div className="h-full w-full">
                   <img className='h-[75vh] w-full' src="https://www.decorpot.com/images/1449605336lighting-and-false-ceiling-ideas-for-your-living-room%20(1).jpg" alt="" />
                 </div> */}
-                <div className="h-full w-full flex ">
-                  <img src={companyLogo} className='absolute top-1/2 left-1/2 ml-[2vw] h-[14vh] w-[10vw]' alt="" />
-                  <img className='md:h-[85vh] h-[55vh] w-full' src="https://static.wixstatic.com/media/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg/v1/fill/w_1349,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg" alt="" />
+                <div className="md:h-[85vh] h-[55vh] w-full flex items-center justify-center" style={{backgroundImage: `url("https://static.wixstatic.com/media/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg/v1/fill/w_1349,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg")`,
+                  backgroundSize: 'cover', backgroundPosition:'center'}}>
+                  <div className="h-1/5 md:ml-[35vh] ml-[20vh]">
+                  <img src={companyLogo} className=' h-[14vh] w-[10vw]' alt="" />
+                  </div>
+                  
+                  {/* <img className='md:h-[85vh] h-[55vh] w-full' src="https://static.wixstatic.com/media/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg/v1/fill/w_1349,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg" alt="" /> */}
                 </div>
                 {/* <div className="h-full w-full">
                   <img className='h-[75vh] w-full' src="https://www.home-designing.com/wp-content/uploads/2014/02/24-White-yellow-kitchen.jpg" alt="" />
