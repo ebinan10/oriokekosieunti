@@ -38,7 +38,9 @@ const Footer = () => {
           <li className='md:m-[10px] m-2 list-none'>Email Address</li>
           <li className='md:m-[10px] m-2 list-none'>Phone Number</li>
           <li className='md:m-[10px] m-2 list-none'>Physical Address</li>
-          <li className='md:m-[10px] m-2 list-none'>Content Page</li>
+          <li className='md:m-[10px] m-2 list-none'>Information</li>
+          <li className='md:m-[10px] m-2 list-none'>Nuvie Wall Details</li>
+          <li className='md:m-[10px] m-2 list-none'>Location Details</li>
         </div>
         </div>
         <div className="md:w-1/4 w-4/5 h-[90px] my-[20px] flex flex-col gap-5 justify-center items-center bg-transparent">

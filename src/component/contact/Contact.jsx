@@ -26,9 +26,9 @@ const Contact = () => {
             <div className="w-full h-full  flex md:flex-row flex-col-reverse md:justify-center justify-evenly items-center">
                 <div className="md:w-1/2 w-full md:min-h-[35vh] min-h-[125vh] bg-[#ccc] flex flex-col justify-center item-center">
                 <h1 className='pb-3 w-full flex md:mt-[5vh] justify-center text-base-100 md:text-3xl text-2xl '>Contact</h1>
-              <div className="w-full"><h1 className=' md:text-3xl text-xl text-base-100 '> nuvie drywall & installation enterprise.</h1>
-               <h1 className=' text-base-100 md:text-lg text-md'>  No 2 siro Street, Off Ikorodu Road,<br />
-                Fadeyi – Lagos.</h1></div> 
+              <div className="w-full"><h1 className=' md:text-3xl text-xl text-base-100 '> Nuvie drywall & installation enterprise.</h1>
+               <h1 className=' text-base-100 md:text-lg text-md'>  No 2 Shiro Street, Off Ikorodu Road,<br />
+                fadeyi Lagos.</h1></div> 
                 <div className="w-full">
                     <h1  className='text-base-100 md:text-xl text-md'>
                     Head Office

@@ -12,7 +12,7 @@ const Product = () => {
                { Data.map((data,i )=>(
                <div
                key={i}
-               className="md:w-[40%] lg:w-[30%] md:h-[40vh] bg-[#8c92a9] w-4/5 h-[30vh] md:m-0 m-4 flex justify-evenly flex-col items-center md:mt-5 md:mb-0 h-full rounded"
+               className="md:w-[40%] lg:w-[30%] md:h-[40vh] bg-[#8c92a9] w-4/5 h-[34vh] md:m-0 m-4 flex justify-evenly flex-col items-center md:mt-5 md:mb-0 h-full rounded"
              >
               <div className="w-full h-[30vh] flex m-auto justify-center items-center">
                <img
@@ -22,7 +22,7 @@ const Product = () => {
                     /></div>
                <div
                  className="flex md:w-[22vw] w-full m-auto  md:h-[14vh] 
-                  h-[8vh] items-center justify-center text-xs  gap-3 rounded-b-lg"
+                  h-[10vh] items-center justify-center text-xs  gap-3 rounded-b-lg"
                 > 
                  
                  <div className="w-full h-full flex flex-col m-auto justify-center items-center text-md ">
