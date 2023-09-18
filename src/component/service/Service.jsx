@@ -8,7 +8,7 @@ const Service = () => {
        <div className='w-full flex flex-col justify-center h-full bg-base-100 items-center'>
         <div className="w-full bg-[#8c92a9] flex flex-col justify-center items-center">
        <div className=" w-[80%] flex flex-col justify-center items-center my-[6vh] gap-3 " >
-       <p className='text-justify text-base-100 md:text-2xl text-sm font-bold mt-4'> At Nuvie dry Wall and Installations, we offer services not limited to the following </p> <br />
+       <p className='text-justify text-base-100 md:text-2xl text-2xl font-bold mt-4'> At Nuvie dry Wall and Installations, we offer services not limited to the following </p> <br />
          <p className='text-justify text-base-100 md:text-xl text-md'> 1. Ceiling Installation : For your different kinds of ceiling applications, including but not limited to Plasterboard,
            Insitu POP Ceiling, or the Acoustic T-Grid Systems.
           These are fast and lightweight materials and metal frame construction that can be utilized in different

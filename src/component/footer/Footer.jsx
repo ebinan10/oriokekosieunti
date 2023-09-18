@@ -20,33 +20,32 @@ const Footer = () => {
           <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
             <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Quick Links</h3>
             <Link  to="/contact" className=' md:m-[10px]  bg-transparent'> Contact</Link>
-            <Link to="/" className=' md:m-[10px] bg-transparent'>Home</Link>
-            <Link to="/contact" className=' md:m-[10px] bg-transparent'>Contact</Link>
-            <Link to="/about" className=' md:m-[10px] bg-transparent'>About</Link>
-            <Link to="/product" className=' md:m-[10px] bg-transparent'>Our Product</Link>
-            <Link to="/service" className=' md:m-[10px] bg-transparent'>Our Services</Link>
-            <Link to="/gallary" className=' md:m-[10px] bg-transparent'>Gallary</Link>
+            <Link to="/about" className=' md:m-[10px] m-2 bg-transparent'>About</Link>
+            <Link to="/product" className=' md:m-[10px] m-2 bg-transparent'>Our Product</Link>
+            <Link to="/service" className=' md:m-[10px] m-2 bg-transparent'>Our Services</Link>
+            <Link to="/gallary" className=' md:m-[10px] m-2 bg-transparent'>Gallary</Link>
         </div> 
         
         <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
           <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Product Category</h3>
-          <li className='md:m-[10px] list-none'>first</li>
-          <li className='md:m-[10px] list-none'>second</li>
-          <li className='md:m-[10px] list-none'>third</li>
+          <li className='md:m-[10px] m-2 list-none'>Bond</li>
+          <li className='md:m-[10px] m-2 list-none'>Screws</li>
+          <li className='md:m-[10px] m-2 list-none'>Frames</li>
+          <li className='md:m-[10px] m-2 list-none'>Boards</li>
         </div>
         <div className='mt-[10px] md:text-xl h-full md:mr-0 mr-3 gap-2 text-md flex flex-col'>
         <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Content</h3>
-          <li className='md:m-[10px] list-none'>Email Address</li>
-          <li className='md:m-[10px] list-none'>Phone Number</li>
-          <li className='md:m-[10px] list-none'>Physical Address</li>
-          <li className='md:m-[10px] list-none'>Content Page</li>
+          <li className='md:m-[10px] m-2 list-none'>Email Address</li>
+          <li className='md:m-[10px] m-2 list-none'>Phone Number</li>
+          <li className='md:m-[10px] m-2 list-none'>Physical Address</li>
+          <li className='md:m-[10px] m-2 list-none'>Content Page</li>
         </div>
         </div>
         <div className="md:w-1/4 w-4/5 h-[90px] my-[20px] flex flex-col gap-5 justify-center items-center bg-transparent">
         <div className="w-full flex justify-center items-center "><a  className='bg-transparent' href="www.twitter.com/ebinan10"><img className='ml-6 w-[6vw] h-[7vh] md:w-[4vw] md:h-[4vh]' src={Twitter} alt="" to></img></a>
-        <a className='bg-transparent' href="www.facebook.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Facebook} alt="" ></img></a>
-        <a className='bg-transparent' href="www.youtube.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Youtube} alt="" ></img></a>
-        <a className='bg-transparent' href="www.linkedin.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Linkedin} alt=""></img></a>
+        <Link className='bg-transparent' to="www.facebook.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Facebook} alt="" ></img></Link>
+        <Link className='bg-transparent' to="www.youtube.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Youtube} alt="" ></img></Link>
+        <Link className='bg-transparent' to="www.linkedin.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Linkedin} alt=""></img></Link>
          </div>   <div><span className='text-xl mr-[7px]  font-black'>&copy;</span>2023 Nuvie Dry Walls. All rights reserved.</div> 
         </div>
         </div>
