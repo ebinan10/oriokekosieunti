@@ -28,14 +28,14 @@ const Nav = () => {
      }
 
   return (
-    <div className='w-full md:min-h-[25vh] relative max-h-[26vh] flex justify-center md:flex-row flex-col items-center  '>
+    <div className='w-full md:min-h-[25vh]  max-h-[26vh] flex justify-center md:flex-row flex-col items-center  '>
        <section className=" md:hidden md:w-0  h-[4vh] mt-4 flex justify-end items-center my-auto w-full" id='top-nav'>
     
     <input id="menu-toggle" type="checkbox" className='h-full md:hidden'/>
     <label className='menu-button-container md:hidden w-1/5  ml-auto' for="menu-toggle">
     <div class='menu-button md:hidden'></div>
   </label>
-   <ul className='menu md:hidden w-full mt-[27vh] text-md'>
+   <ul className='menu md:hidden w-3/4 m-auto mt-[21vh] bg-[#8c92a9] text-md'>
     <li className='z-100  h-[7vh] cursor-pointer'>
    <Link className={sglink} to="/">
               <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0 '>Home</h1>

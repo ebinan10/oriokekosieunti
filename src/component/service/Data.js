@@ -48,19 +48,19 @@ export const Data =[
       img:`${galary9}`
     },
     {
-      title:'Procurement and Supplies',
+      title:'Procurement/Supplies',
       img:`${galary10}`
     },
     {
-      title:'Procurement and Supplies',
+      title:'Procurement/Supplies',
       img:`${galary13}`
     },
     {
-      title:'Procurement and Supplies',
+      title:'Procurement/Supplies',
       img:`${galary14}`
     },
     {
-      title:'Procurement and Supplies',
+      title:'Procurement/Supplies',
       img:`${galary15}`
     }
 ]
