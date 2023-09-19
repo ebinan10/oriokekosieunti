@@ -36,12 +36,12 @@ const Nav = () => {
     <div class='menu-button md:hidden'></div>
   </label>
    <ul className='menu md:hidden w-full m-auto mt-[21vh] bg-[#8c92a9] text-md'>
-    <li className='z-100 w-3/4 h-[7vh] cursor-pointer'>
+    <li className='z-100 w-full h-[7vh] cursor-pointer'>
    <Link className={sglink} to="/">
               <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0 '>Home</h1>
               </Link>
              </li>
-             <li className='z-100 w-3/4 h-[7vh] cursor-pointer'>
+             <li className='z-100 w-full h-[7vh] cursor-pointer'>
               <Link className={sglink} to="/contact">
                <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0'> Contact</h1>
               </Link>
@@ -75,7 +75,7 @@ const Nav = () => {
         <div className="md:min-w-[60%] z-0 w-full relative h-full md:gap-0 gap-2 flex flex-col justify-evenly">
           <div className="w-full flex z-0 md:flex-col flex-row md:items-end justify-evenly md:justify-end ">
           <div className="md:w-[0%] z-0 w-[40%] flex justify-center">
-            <img className='h-[15vh] z-0 md:h-0 md:w-0 w-[20vw] ' src={companyLogo} alt="" />
+            <img className='h-[15vh] z-0 md:h-0 md:w-0 mb-3 w-[20vw] ' src={companyLogo} alt="" />
           </div>
             <div className="xl:w-[25%] z-0 md:w-[40%] w-3/4 flex flex-col gap-2 justify-end">
           <div className="w-full z-0 flex items-center  ">

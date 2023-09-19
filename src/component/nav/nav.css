@@ -89,7 +89,7 @@ html, body {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 48rem) {
   .menu-button-container {
     display: flex;
   }
