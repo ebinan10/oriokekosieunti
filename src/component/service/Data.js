@@ -40,7 +40,7 @@ export const Data =[
       img:`${galary7}`
     },
     {
-      title:'Procurement and Supplies',
+      title:'Procurement/Supplies',
       img:`${galary8}`
     },
     {

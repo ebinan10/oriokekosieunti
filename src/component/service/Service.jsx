@@ -53,7 +53,7 @@ const Service = () => {
                 > 
                  
                  <div className="w-full h-[full] flex flex-col justify-center items-center text-xs ">
-                   <p className="w-3/4 h-full font-bold text-[#8c92a9] md:text-lg text-md">{data.title}</p>
+                   <h1 className="w-3/4 h-full font-bold text-[#8c92a9] md:text-lg text-xl">{data.title}</h1>
                  </div>
                </div>
              </div>
