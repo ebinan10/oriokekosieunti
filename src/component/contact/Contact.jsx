@@ -64,7 +64,7 @@ const Contact = () => {
                 <div className="md:w-1/2 w-full flex flex-col justify-center items-center">
                     <div className="w-[95%] md:h-[98vh] h-[50vh] flex justify-center items-center">
                         
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15855.890596043582!2d3.3746176!3d6.525138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bed07af52888f%3A0x8d5bf7124dd81612!2sNuvie%20Drywall%20%26%20Installation%20Enterprise!5e0!3m2!1sen!2sng!4v1693761866538!5m2!1sen!2sng" 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7927.9891143253135!2d3.3683563833803873!3d6.522368896804936!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bed07af52888f%3A0x8d5bf7124dd81612!2sNuvie%20Drywall%20%26%20Installation%20Enterprise!5e0!3m2!1sen!2sng!4v1695061701872!5m2!1sen!2sng" 
                         width="100%" height="100%" style={{border:"0"}} title='nuvieDrywalls' allowFullScreen="" loading="lazy" 
                         referrerPolicy="no-referrer-when-downgrade"></iframe>
 

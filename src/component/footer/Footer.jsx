@@ -7,6 +7,7 @@ import Twitter from './twitter (1).svg'
 import Facebook from './facebook.svg'
 import Youtube from './youtube.svg'
 import Linkedin from './linkedin.svg'
+import instagram from './instagram-icon.svg'
 // import { Link } from 'react-router-dom'
 import  { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -44,10 +45,8 @@ const Footer = () => {
         </div>
         </div>
         <div className="md:w-1/4 w-4/5 h-[90px] my-[20px] flex flex-col gap-5 justify-center items-center bg-transparent">
-        <div className="w-full flex justify-center items-center "><a  className='bg-transparent' href="www.twitter.com/ebinan10"><img className='ml-6 w-[6vw] h-[7vh] md:w-[4vw] md:h-[4vh]' src={Twitter} alt="" to></img></a>
-        <Link className='bg-transparent' to="www.facebook.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Facebook} alt="" ></img></Link>
-        <Link className='bg-transparent' to="www.youtube.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Youtube} alt="" ></img></Link>
-        <Link className='bg-transparent' to="www.linkedin.com/ebinan10"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Linkedin} alt=""></img></Link>
+        <div className="w-full flex justify-center items-center ">
+       <Link className='bg-transparent' to="https://www.instagram.com/nuvie_drywall_enterprise/"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={instagram} alt=""></img></Link>
          </div>   <div><span className='text-xl mr-[7px]  font-black'>&copy;</span>2023 Nuvie Dry Walls. All rights reserved.</div> 
         </div>
         </div>

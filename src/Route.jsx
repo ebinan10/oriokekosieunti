@@ -4,7 +4,7 @@ import Home from '././component/home/Home';
 import Product from './component/product/Product';
 import Service from './component/service/Service';
 import Gallary from './component/gallary/Gallary';
-import Component4 from './component/component4/Component4';
+import Error from './component/404/Error';
 import Component5 from './component/component5/Component5';
 import Nav from './component/nav/Nav';
 import Mailer from './component/mailer/Mailer';
@@ -29,7 +29,7 @@ const Rout = () => {
                 <Route path='service' element={<Service/>}/>
                 <Route path='gallary' element={<Gallary/>}/>
                 <Route path='about' element={<About/>}/>
-                <Route path='component4' element={<Component4/>}/>
+                <Route path='*' element={<Error/>}/>
               
             </Routes>
             {/* <Mailer/> */}
