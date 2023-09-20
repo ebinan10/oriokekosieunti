@@ -72,12 +72,12 @@ const Nav = () => {
         <div className="md:w-[20%] z-0 w-[0%] flex justify-center items-center">
           <img className='md:h-[22vh] h-0 w-0 md:w-[24vw]' src={companyLogo} alt="" />
           </div>
-        <div className="md:min-w-[60%] z-0 w-full relative h-full md:gap-0 gap-2 flex flex-col justify-evenly">
+        <div className="md:min-w-[60%] z-0 w-full md:mb-0  relative h-full md:gap-0 gap-2 flex flex-col justify-evenly">
           <div className="w-full flex z-0 md:flex-col flex-row md:items-end justify-evenly md:justify-end ">
-          <div className="md:w-[0%] z-0 w-[40%] flex justify-center">
+          <div className="md:w-[0%] z-0  w-[40%] flex justify-center">
             <img className='h-[15vh] z-0 md:h-0 md:w-0 mb-3 w-[20vw] ' src={companyLogo} alt="" />
           </div>
-            <div className="xl:w-[25%] z-0 md:w-[40%] w-3/4 flex flex-col gap-2 justify-end">
+            <div className="xl:w-[25%] z-0 md:w-[40%] md:mb-0 mb-3 w-3/4 flex flex-col gap-2 justify-end">
           <div className="w-full z-0 flex items-center  ">
           <img className='z-0' src={phoneLogo} alt="" />
           <div className="md:w-3/4 z-0 w-1/2 flex flex-col ">
