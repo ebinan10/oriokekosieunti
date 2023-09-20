@@ -37,7 +37,8 @@ const Contact = () => {
                     68 Military hospital road, Yaba,
                     <br /> Lagos – Nigeria. <br />
                     nuviedrywalls@gmail.com <br />
-                    Tel: +234-8135853802
+                    Mobile: +234-8135853802 <br />
+                    Phone: +234-7046092205
                     </h1>
                 </div>
                 <div className=" w-[95%] mt-[5vh] mb-[4vh] md:min-h-[50vh] min-h-[80vh] flex  m-auto justify-center bg-base-100 items-center">
