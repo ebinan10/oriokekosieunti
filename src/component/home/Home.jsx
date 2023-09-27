@@ -13,7 +13,12 @@ const Home = () => {
                 <div id='bg' className="md:h-[85vh] h-[55vh] w-full flex items-center justify-center" >
                   <div className="h-3/5 w-[24vw] flex flex-col gap-[7vh] items-center justify-center "> 
                   {/* <img src={companyLogo} className=' bg-opacity-100  h-[14vh] w-full' alt="" /> */}
-                  <div className="w-full "><h1 className='text-[brown] md:text-xl text-md '>NUVIE <br /> DRY WALL <br /> ENTREPRISE</h1></div>
+                  <div className="w-full flex flex-col gap-2 font-bold">
+                    <h1 className='text-[brown] md:text-3xl text-md '>NUVIE</h1>
+                     <h1 className='text-[brown] md:text-3xl text-md '> DRYWALL</h1>
+                     <h1 className='text-[brown] md:text-3xl text-md '>&</h1>
+                     <h1 className='text-[brown] md:text-3xl text-md '>INSTALLATION</h1> 
+                     <h1 className='text-[brown] md:text-5xl text-xl '> ENTREPRISE</h1></div>
                    <div className=" md:w-[20vw] w-[30vw] bg-opacity-60 h-[5vh] flex items-center justify-center rounded-xl bg-base-100"><Link to='/contact' className='w-full'> Welcome</Link>
                   </div> 
                   </div>
