@@ -14,7 +14,7 @@ const Home = () => {
                   <div className="md:h-3/5 h-2/5 w-[24vw] flex flex-col gap-[7vh] items-center justify-center "> 
                   {/* <img src={companyLogo} className=' bg-opacity-100  h-[14vh] w-full' alt="" /> */}
                   <div className="w-full "><h1 className='text-[brown] md:text-xl text-md '>NUVIE <br /> DRY WALL <br /> ENTREPRISE</h1></div>
-                   <div className="w-full min-w-[33vw] md:w-3/5 bg-opacity-60 h-[5vh] flex items-center justify-center rounded-xl bg-base-100"><Link to='/contact' className='w-full'> Welcome</Link>
+                   <div className=" md:w-[20vw] w-[30vw] bg-opacity-60 h-[5vh] flex items-center justify-center rounded-xl bg-base-100"><Link to='/contact' className='w-full'> Welcome</Link>
                   </div> 
                   </div>
                   
