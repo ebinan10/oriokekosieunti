@@ -9,10 +9,9 @@ const Home = () => {
     <div className='md:min-h-[67vh] min-h-[40vh] w-full flex items-center justify-center '>
         <div className="h-full w-full flex flex-col items-center justify-center">
             <div className="h-full w-full flex items-center justify-center ">
-               
-                <div id='bg' className="md:h-[85vh] h-[55vh] w-full flex items-center justify-center" >
+                
+                <div id='bg' className="md:h-[85vh] h-[55vh] w-full flex items-center justify-center bg-[grey]" >
                 <div className="md:h-3/5 h-3/5 md:w-1/4 w-1/2  flex flex-col gap-[7vh] items-center justify-center "> 
-                  {/* <img src={companyLogo} className=' bg-opacity-100  h-[14vh] w-full' alt="" /> */}
                   <div className="w-full h-full rounded flex flex-col justify-center items-center gap-2 font-bold text-center bg-opacity-40 ">
                     <h1 className='text-[white] md:text-3xl text-md text-center '>NUVIE</h1>
                      <h1 className='text-center text-[white] md:text-3xl text-md '> DRYWALL</h1>

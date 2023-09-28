@@ -1,10 +1,14 @@
 #bg{
-    background-image: url("https://static.wixstatic.com/media/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg/v1/fill/w_1349,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg");
+    background-image: url("https://static.wixstatic.com/media/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg/v1/fill/w_1349,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg"),
+    url("https://i0.wp.com/cocolapinedesign.com/wp-content/uploads/Brown-kitchen-cabinets-in-a-spacious-turn-of-the-century-home14.jpg?resize=1024%2C768&ssl=1"),
+    url("https://www.decorpot.com/images/1449605336lighting-and-false-ceiling-ideas-for-your-living-room%20(1).jpg"),
+    url("https://www.home-designing.com/wp-content/uploads/2014/02/24-White-yellow-kitchen.jpg"),
+    url("https://img.staticmb.com/mbcontent/images/uploads/2023/1/Low-Cost-Simple-POP-Design_1673522026025.jpg");
     background-size: cover;
     background-position:center;
-    animation: change 50s infinite linear;
+    animation: BackgroundFadeIn 50s infinite linear;
 }
-@keyframes change{
+@keyframes BackgroundFadeIn{
     0%{
         background-image: url("https://static.wixstatic.com/media/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg/v1/fill/w_1349,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e5590e78cb3c4a4aa2bd66fce4787a0c.jpg");
     }
