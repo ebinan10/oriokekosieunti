@@ -26,7 +26,7 @@ const Home = () => {
                 
             </div>
             <div className="md:w-3/4 w-full md:m-[50px] py-[20px] text-[grey] md:bg-[white] bg-[#8c92a9] flex justify-center items-center"><div className="md:w-full w-[85%]">
-              <h1 className='md:text-2xl text-lg tracking-wide md:text-[#8c92ac] text-[white] my-3' >Welcome to Nieve Dry Walls  Ltd.</h1>
+              <h1 className='md:text-2xl text-lg tracking-wide md:text-[#8c92ac] text-[white] my-3' >Welcome to Nuvie Dry Walls  Ltd.</h1>
               <h1 className='text-justify md:text-xl text-md md:mb-0 mb-3 leading-loose md:text-[#8c92ac] text-[white]'>Nuvie Drywall & Installation Enterprise, situated at Lagos, is a quality brand behind high 
               ceiling and drywall partition products, from wholesale supply to expert installation.  Our products are of affordable prices, aesthetic values, energy efficiency, 
               fire & moisture resistance, fast installation time, and low maintenance cost.<br />As the need for distinctive and extraordinary interior systems are ever growing, NDIE is constantly on the lookout for new products, 
