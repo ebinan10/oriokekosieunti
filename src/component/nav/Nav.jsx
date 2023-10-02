@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink, useLocation, useRouteMatch } from 'react-router-dom'
 import './nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faContactBook, faContactCard, faHome, faPhone, 
@@ -10,16 +10,26 @@ import amburger from '../icon/menu.png'
 import cancel from '../icon/cancel.png'
 
 const Nav = () => {
+
+      const location = useLocation();
+      const pathname  = location.pathname
+      console.log(location);
+
+
       const [menuBtn, setMenuBtn] = useState(cancel)
-      const [bglink, setBglink  ] = useState(`md:w-[20%] none h-[6vh] flex border-r-2 border-[white]
+      const [bgNavlink, setBgNavlink  ] = useState(`md:w-[20%] none h-[6vh] flex border-r-2 border-[white]
        text-[white] items-center bg-[#ccc] `)
-      const [sglink, setSglink  ] = useState(`w-full md:hidden h-[6vh] text-[white] flex justify-center 
+       const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex border-r-2 border-[white]
+       text-[white] items-center bg-[#8c92a9] `)
+      const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[white] flex justify-center 
       items-center text-center z-100 items-center bg-[#ccc] `)
+      const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden bg-opacity-90 h-[6vh] text-[white] flex justify-center 
+      items-center text-center z-100 items-center bg-[#8c92a9] `)
 
      const andleMenu = () =>{
       console.log('object');
         if(menuBtn===amburger){
-          setMenuBtn(cancel)
+          setMenuBtn(cancel)  
 
         }
         else{
@@ -27,7 +37,7 @@ const Nav = () => {
         }
      }
 
-  return (
+  return (<>
     <div className='w-full md:min-h-[25vh]  max-h-[26vh] flex justify-center md:flex-row flex-col items-center  '>
        <section className=" md:hidden md:w-0  h-[4vh] mt-4 flex justify-end items-center my-auto w-full" id='top-nav'>
     
@@ -35,36 +45,36 @@ const Nav = () => {
     <label className='menu-button-container md:hidden w-1/5  ml-auto' for="menu-toggle">
     <div class='menu-button md:hidden'></div>
   </label>
-   <ul className='menu md:hidden w-full m-auto mt-[21vh] bg-[#8c92a9] text-md'>
-    <li className='z-100 w-full h-[7vh] cursor-pointer'>
-   <Link className={sglink} to="/">
+   <ul className='menu md:hidden w-full m-auto mt-[21vh] bg-[#8c92a9] bg-opacity-60 text-md'>
+    <li className='z-100 w-full h-[7vh] cursor-pointer bg-opacity-70'>
+   <NavLink className={pathname ==='/'? gNavlink:sgNavlink} to="">
               <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0 '>Home</h1>
-              </Link>
+              </NavLink>
              </li>
              <li className='z-100 w-full h-[7vh] cursor-pointer'>
-              <Link className={sglink} to="/contact">
+              <NavLink className={pathname ==='/contact'? gNavlink:sgNavlink} to="contact">
                <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0'> Contact</h1>
-              </Link>
+              </NavLink>
              </li>
              <li>
-              <Link className={sglink} to="/about">
+              <NavLink className={pathname ==='/about'? gNavlink:sgNavlink} to="/about">
               <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0'> About</h1>
-              </Link>
+              </NavLink>
               </li>
               <li>
-              <Link className={sglink} to="/product">
+              <NavLink className={pathname ==='/product'? gNavlink:sgNavlink} to="/product">
               <h1 className=' w-full md:w-0 md:none md:h-0'> Our Product</h1>
-                </Link>
+                </NavLink>
               </li>
               <li>
-              <Link className={sglink} to="/service" >
+              <NavLink className={pathname ==='/service'? gNavlink:sgNavlink} to="/service" >
                <h1 className=' w-full md:w-0 md:none md:h-0'> Our Service</h1>
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link className={sglink} to="/gallary" >
-               <h1 className=' w-full '> Gallary</h1>
-                </Link>
+                <NavLink className={pathname ==='/gallary'? gNavlink:sgNavlink} to="/gallary" >
+               <h1 className=' w-full '> Gallery</h1>
+                </NavLink>
               </li>
    </ul>
   </section>
@@ -93,37 +103,50 @@ const Nav = () => {
             
             <div className="min-w-full  h-full flex"> 
              
-              <Link className={bglink} to="/">
+              <NavLink className={pathname ==='/'? activeLink:bgNavlink} to="/">
               <h1 className='ml-[3vw] w-full '>Home</h1>
               <FontAwesomeIcon icon={faHome} className='w-1/4 h-3 mr-9'/>
-              </Link>
+              </NavLink>
              
-              <Link className={bglink} to="/contact">
+              <NavLink className={pathname ==='/contact'? activeLink:bgNavlink} to="/contact">
                <h1 className='ml-[3vw] w-full '> Contact</h1>
               <FontAwesomeIcon icon={faPhone} className='w-1/4 h-3 mr-9'/>
-              </Link>
+              </NavLink>
              
-              <Link className={bglink} to="/about">
+              <NavLink className={pathname ==='/about'? activeLink:bgNavlink} to="/about">
               <h1 className='ml-[3vw] w-full '> About</h1>
               <FontAwesomeIcon icon={faQuestion}  className='w-1/4 h-3 mr-9'/>
-              </Link>
+              </NavLink>
                
-              <Link className={bglink} to="/product">
+              <NavLink className={pathname ==='/product'? activeLink:bgNavlink} to="/product">
               <h1 className=' w-full '> Our Product</h1>
-                </Link>
+                </NavLink>
               
-              <Link className={bglink} to="/service" >
+              <NavLink className={pathname ==='/service'? activeLink:bgNavlink} to="/service">
               <h1 className=' w-full '> Our Service</h1>
-              </Link>
+              </NavLink>
               
-                <Link className={bglink} to="/gallary" >
-               <h1 className=' w-full '> Gallary</h1>
-                </Link>
+                <NavLink className={pathname ==='/gallary'? activeLink:bgNavlink} to="/gallary">
+               <h1 className=' w-full '> Gallery</h1>
+                </NavLink>
 
-            </div>
-          </div>
+            </div></div>
+          
         </div>
-    </div>
+    </div><div className="h-[4vh] flex justify-center items-center"><marquee class="css" behavior="scroll" direction="left"> 
+    Nuvie Drywall & Installation Enterprise was founded in early 2023. As a registered installers of 
+    drywall partition and ceiling materials, we do installation of top quality products for residential
+     and commercial buildings. We stock most various sizes of drywall and ceiling materials that would
+      be needed in the residential or commercial applications, wall angles, omega channels, gypsum boards,
+       metal ceiling, plaster compounds, adhesive, fasten and fixings. NDWEI has a fully trained and 
+       experienced team of operatives that are capable of executing turn-key jobs, from interior design
+        to finishing of ceiling and drywall partition.We are familiar with all options that are currently
+         available, but if there is nothing off the shelf that suits your need, we can work with our 
+         suppliers to develop a bespoke solution. We win contracts based on the quality of our work, 
+         our customer focused approach, correct specification compliance, and our competitive prices. 
+         By going the extra mile, our honesty and hard work always prevail. Wouldn't you rather contact
+          us today let's talk business.
+.</marquee> </div></>
   )
 }
 

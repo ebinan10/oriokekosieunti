@@ -1,9 +1,10 @@
 import React from 'react'
 import companyLogo from '../images/companyLogo.jpg'
 import './home.css'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 const Home = () => {
-  
+   
+
   
   return (
     <div className='md:min-h-[67vh] min-h-[40vh] w-full flex items-center justify-center '>
