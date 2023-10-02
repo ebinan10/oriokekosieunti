@@ -13,7 +13,6 @@ const Nav = () => {
 
       const location = useLocation();
       const pathname  = location.pathname
-      console.log(location);
 
 
       const [menuBtn, setMenuBtn] = useState(cancel)
@@ -21,10 +20,10 @@ const Nav = () => {
        text-[white] items-center bg-[#ccc] `)
        const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex border-r-2 border-[white]
        text-[white] items-center bg-[#8c92a9] `)
-      const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[white] flex justify-center 
+      const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[black] flex justify-center 
       items-center text-center z-100 items-center bg-[#ccc] `)
-      const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden bg-opacity-90 h-[6vh] text-[white] flex justify-center 
-      items-center text-center z-100 items-center bg-[#8c92a9] `)
+      const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center 
+      items-center text-center  items-center  `)
 
      const andleMenu = () =>{
       console.log('object');
@@ -46,7 +45,7 @@ const Nav = () => {
     <div class='menu-button md:hidden'></div>
   </label>
    <ul className='menu md:hidden w-full m-auto mt-[21vh] bg-[#8c92a9] bg-opacity-60 text-md'>
-    <li className='z-100 w-full h-[7vh] cursor-pointer bg-opacity-70'>
+    <li className='z-100 w-full h-[7vh] cursor-pointer '>
    <NavLink className={pathname ==='/'? gNavlink:sgNavlink} to="">
               <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0 '>Home</h1>
               </NavLink>
@@ -146,7 +145,7 @@ const Nav = () => {
          our customer focused approach, correct specification compliance, and our competitive prices. 
          By going the extra mile, our honesty and hard work always prevail. Wouldn't you rather contact
           us today let's talk business.
-.</marquee> </div></>
+      </marquee> </div></>
   )
 }
 
