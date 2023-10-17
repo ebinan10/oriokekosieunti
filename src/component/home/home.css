@@ -1,0 +1,20 @@
+#bg{
+    background-image: url("https://theworldpursuit.com/wp-content/uploads/2023/07/iceland-glacier.jpg"),
+    url("https://rare-gallery.com/uploads/posts/516346-mountain.jpg"),
+    url("https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg");
+    background-size: cover;
+    background-position:center;
+    animation: change 50s infinite linear;
+}
+@keyframes change{
+    0%{
+        background-image: url("https://theworldpursuit.com/wp-content/uploads/2023/07/iceland-glacier.jpg");
+    }
+    20%{
+        background-image: url("https://rare-gallery.com/uploads/posts/516346-mountain.jpg");
+    }
+    40%{
+        background-image: url("https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?cs=srgb&dl=pexels-sagui-andrea-618833.jpg&fm=jpg");
+    }
+    
+}
