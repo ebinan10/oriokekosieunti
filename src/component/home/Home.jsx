@@ -25,7 +25,9 @@ const Home = () => {
                   </div>
                   
                  
+                 
                 </div>
+                
                 
             </div>
             <div className="md:w-3/4 w-full md:m-[50px] py-[20px] text-[grey] md:bg-[white] bg-[#8c92a9] flex justify-center items-center"><div className="md:w-full w-[85%]">

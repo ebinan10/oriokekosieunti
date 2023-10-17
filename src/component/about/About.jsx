@@ -38,29 +38,22 @@ const About = () => {
                     <div className="w-full mt-[5vh]">
                     <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Our Mission/ Vision</h1>
                       <h4 className='bg-[white] md:text-lg text-md p-5 text-justify'>
-                      Our Vision at Nuvie Drywall & Installation Enterprise, is to become a premier solution provider
-                       company providing world leadership in the wall and ceiling industry.
-                        Our Mission is to form a long-term relationship of value with our clients 
-                        and partners, using quality execution, safely, and timely delivery of 
-                        projects and employing the best resources and latest techniques.
-                      </h4>
+                        The vision of God that he delivered to our founding fathers is that any thing that is difficult and that man says cannot
+                        be possible he will make easy in the life of anyone that believes.
+                       </h4>
                     </div>
                     <div className="w-full mt-[5vh]">
-                    <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Health Safety and Environment</h1>
+                    <h1 className='w-full text-[white] text-start md:text-3xl text-xl p-3'>Rules and Regulations</h1>
                       <h4 className='bg-[white] md:text-lg text-md p-5 text-justify'>
-                      The manpower of NDWEI is one of our most valuable resources. We ensure a safe workplace
-                       for our staff and also to protect clients' investment and facilities, 
-                       our company has evolved a strong health and safety culture driven by a 
-                       goal to achieve "zero accidents" and "zero man-hours lost".
-                       The safety culture has been instilled in KKG employees with the conviction
-                       that every accident is preventable. The company fully acknowledges that
-                       by complying with stringent Health, Safety and Environment (HSE) 
-                       procedures, zero accidents can be accomplished.
-                        </h4>
+                      The Rules and Regulations giving are  simple and straight forward, they includes <br />
+                      1. Do not litter the mountain with dirts <br />
+                      2. Do not pray loud prayer during Night hours <br />
+                      3. 
+                       </h4>
                     </div>
                 </div>
                 <div className="md:w-1/2 w-full h-[40vh] flex justify-center items-start">
-                  <img src={companyLogo} className='md:ml-[4vw] md:mt-[30vh] h-[36vh] mt-4 md:w-[30vw] w-full' alt="" />
+                  <img src={companyLogo} className='md:ml-[4vw] md:mt-0 h-[36vh] mt-4 md:w-[30vw] w-full' alt="" />
                 </div>
                </div>
 

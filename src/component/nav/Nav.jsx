@@ -30,7 +30,7 @@ const Nav = () => {
      const andleMenu = () =>{
       console.log('object');
         if(menuBtn===amburger){
-          setMenuBtn(cancel)
+          setMenuBtn(cancel)  
 
         }
         else{
@@ -39,6 +39,7 @@ const Nav = () => {
      }
 
   return (
+    <>
     <div className='w-full md:fixed top-0 md:min-h-[10vh] z-100 md:mb-[20vh] bg-[black] bg-opacity-40 max-h-[26vh] flex justify-center md:flex-row flex-col items-center  '>
        <section className=" md:hidden md:w-0  h-[4vh] mt-4 flex justify-end items-center my-auto w-full" id='top-nav'>
     
@@ -79,7 +80,7 @@ const Nav = () => {
               </li>
    </ul>
   </section>
-
+  
         
         <div className="md:min-w-[60%] z-0 w-full md:mb-0  relative h-full md:gap-0 gap-2 flex flex-col justify-evenly">
           
@@ -120,7 +121,7 @@ const Nav = () => {
               </div>
           </div>
         </div>
-    </div>
+    </div></>
   )
 }
 
