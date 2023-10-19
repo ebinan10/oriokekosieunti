@@ -10,7 +10,7 @@ const Home = () => {
     <div className='md:min-h-[67vh] min-h-[40vh] w-full flex items-center justify-center '>
       <div className="h-full w-full flex flex-col items-center justify-center">
             <div className="h-full w-full flex items-center justify-center ">
-               
+                  
                 <div id='bg' className="md:h-[110vh] h-[55vh] w-full flex items-center justify-center" >
                   <div className="md:h-3/5 h-3/5 md:w-1/4 w-1/2  flex flex-col gap-[7vh] items-center justify-center "> 
                   
