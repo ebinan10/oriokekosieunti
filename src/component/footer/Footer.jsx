@@ -8,6 +8,7 @@ import Facebook from './facebook.svg'
 import Youtube from './youtube.svg'
 import Linkedin from './linkedin.svg'
 import instagram from './instagram-icon.svg'
+import koseuntiLogo from '../images/koseuntiLogo.jpg'
 // import { Link } from 'react-router-dom'
 import  { useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -54,11 +55,8 @@ const Footer = () => {
         </div>
         <div className="md:w-1/2 w-3/5 h-[10vh] items-center flex m-auto justify-center md:gap-5 gap-2">
           <img className='md:h-[8vh] md:w-[7vw]' src="https://www.pngkey.com/png/full/123-1230334_the-christ-apostolic-church-christ-apostolic-church-logo.png" alt="" />
-          <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_db545c5db7544ebfa0090999e4efd590~mv2.png/v1/fill/w_93,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/80b77e_db545c5db7544ebfa0090999e4efd590~mv2.png" alt="" />
-          <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_5092a0e36230457ab8b112b4f3b43826~mv2.jpg/v1/fill/w_96,h_41,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/80b77e_5092a0e36230457ab8b112b4f3b43826~mv2.jpg" alt="" />
-          <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_33d64fdf194d4d8b8f7b42d0acf53c65~mv2.png/v1/fill/w_98,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/80b77e_33d64fdf194d4d8b8f7b42d0acf53c65~mv2.png" alt="" />
-          <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_1c70260bb61b419fb772cf1ec1fac78c~mv2.png/v1/fill/w_99,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/80b77e_1c70260bb61b419fb772cf1ec1fac78c~mv2.png" alt="" />
-          <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_1f2b299d46444a348665c6912a2382b8~mv2.jpg/v1/fill/w_99,h_49,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/80b77e_1f2b299d46444a348665c6912a2382b8~mv2.jpg" alt="" />
+          <img className='md:h-[8vh] md:w-[7vw]' src={koseuntiLogo} alt="" />
+           
         </div>
         </div>
   )

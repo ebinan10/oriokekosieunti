@@ -22,10 +22,10 @@ const Nav = () => {
        text-[white] items-center  `)
        const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex 
        text-[white] items-center `)
-      const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden h-[6vh] text-[white] flex justify-center 
-      items-center text-center z-100 items-center bg-[#ccc] `)
-      const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden h-[6vh] text-[white] flex justify-center 
-      items-center text-center z-100 items-center bg-[brown] `)
+       const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[black] flex justify-center 
+       items-center text-center z-100 items-center bg-[#ccc] `)
+       const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center 
+       items-center text-center  items-center  `)
 
      const andleMenu = () =>{
       console.log('object');
