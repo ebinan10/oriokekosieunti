@@ -22,17 +22,17 @@ const Footer = () => {
             <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Quick Links</h3>
             <Link  to="/contact" className=' md:m-[10px]  bg-transparent'> Contact</Link>
             <Link to="/about" className=' md:m-[10px] m-2 bg-transparent'>About</Link>
-            <Link to="/product" className=' md:m-[10px] m-2 bg-transparent'>Our Product</Link>
-            <Link to="/service" className=' md:m-[10px] m-2 bg-transparent'>Our Services</Link>
+            <Link to="/product" className=' md:m-[10px] m-2 bg-transparent'>Expectation</Link>
+            <Link to="/service" className=' md:m-[10px] m-2 bg-transparent'>Testimony</Link>
             <Link to="/gallary" className=' md:m-[10px] m-2 bg-transparent'>Gallary</Link>
         </div> 
         
         <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
-          <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Product Category</h3>
-          <li className='md:m-[10px] m-2 list-none'>Bond</li>
-          <li className='md:m-[10px] m-2 list-none'>Screws</li>
-          <li className='md:m-[10px] m-2 list-none'>Frames</li>
-          <li className='md:m-[10px] m-2 list-none'>Boards</li>
+          <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Program</h3>
+          <li className='md:m-[10px] m-2 list-none'>Anniversary</li>
+          <li className='md:m-[10px] m-2 list-none'>Weekly Program</li>
+          <li className='md:m-[10px] m-2 list-none'>Monthly Program</li>
+          <li className='md:m-[10px] m-2 list-none'>Sunday Service</li>
         </div>
         <div className='mt-[10px] md:text-xl h-full md:mr-0 mr-3 gap-2 text-md flex flex-col'>
         <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Content</h3>
@@ -40,18 +40,20 @@ const Footer = () => {
           <li className='md:m-[10px] m-2 list-none'>Phone Number</li>
           <li className='md:m-[10px] m-2 list-none'>Physical Address</li>
           <li className='md:m-[10px] m-2 list-none'>Information</li>
-          <li className='md:m-[10px] m-2 list-none'>Nuvie Wall Details</li>
+          <li className='md:m-[10px] m-2 list-none'>Program Details</li>
           <li className='md:m-[10px] m-2 list-none'>Location Details</li>
         </div>
         </div>
         <div className="md:w-1/4 w-4/5 h-[90px] my-[20px] flex flex-col gap-5 justify-center items-center bg-transparent">
         <div className="w-full flex justify-center items-center ">
        <Link className='bg-transparent' to="https://www.instagram.com/nuvie_drywall_enterprise/"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={instagram} alt=""></img></Link>
-         </div>   <div><span className='text-xl mr-[7px]  font-black'>&copy;</span>2023 Nuvie Dry Walls. All rights reserved.</div> 
+       <Link className='bg-transparent' to="https://www.facebook.com/erinmopossibiltymountain/?_rdc=2&_rdr"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Facebook} alt=""></img></Link>
+       
+         </div>   <div><span className='text-xl mr-[7px]  font-black'>&copy;</span>2023 Mountain of Possibility. All rights reserved.</div> 
         </div>
         </div>
         <div className="md:w-1/2 w-3/5 h-[10vh] items-center flex m-auto justify-center md:gap-5 gap-2">
-          <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_f1aa6cb82957404aa2ca5b96ca9753f3~mv2.jpg/v1/fill/w_69,h_41,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/80b77e_f1aa6cb82957404aa2ca5b96ca9753f3~mv2.jpg" alt="" />
+          <img className='md:h-[8vh] md:w-[7vw]' src="https://www.pngkey.com/png/full/123-1230334_the-christ-apostolic-church-christ-apostolic-church-logo.png" alt="" />
           <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_db545c5db7544ebfa0090999e4efd590~mv2.png/v1/fill/w_93,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/80b77e_db545c5db7544ebfa0090999e4efd590~mv2.png" alt="" />
           <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_5092a0e36230457ab8b112b4f3b43826~mv2.jpg/v1/fill/w_96,h_41,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/80b77e_5092a0e36230457ab8b112b4f3b43826~mv2.jpg" alt="" />
           <img className='md:h-[8vh] md:w-[7vw]' src="https://static.wixstatic.com/media/80b77e_33d64fdf194d4d8b8f7b42d0acf53c65~mv2.png/v1/fill/w_98,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/80b77e_33d64fdf194d4d8b8f7b42d0acf53c65~mv2.png" alt="" />
