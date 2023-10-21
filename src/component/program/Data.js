@@ -1,7 +1,6 @@
-// import galvanizeFrame from '../images/galvanizeFrame.jpg'
-// import galary1 from '../images/IMG-20230908-WA0000.jpg'
-// import galary2 from '../images/IMG-20230908-WA0001 (1).jpg'
-// import galary3 from '../images/IMG-20230908-WA0001.jpg'
+import galary1 from '../images/babaAtEye.jpeg'
+import galary2 from '../images/babaChating.jpeg'
+import galary3 from '../images/babaAtEye.jpeg'
 // import galary4 from '../images/IMG-20230908-WA0002.jpg'
 // import galary5 from '../images/IMG-20230908-WA0003.jpg'
 // import galary6 from '../images/IMG-20230908-WA0004.jpg'
@@ -15,52 +14,53 @@
 // import galary14 from '../images/IMG-20230908-WA0014.jpg'
 // import galary15 from '../images/IMG-20230910-WA0001.jpg'
 
-// export const Data =[
-//    {
+   export const Data =[
+//     { title:'Finishing',
 //      img:`${galary1}`
 //     },
 //     {
+//       title:'Frame Partitioning',
 //       img:`${galary2}`
 //     },
+    
 //     {
-//       img:`${galary3}`
-//     },
-//     {
+//       title:'Wall Partitioning',
 //       img:`${galary4}`
 //     },
 //     {
+//       title:'Finishing',
 //       img:`${galary5}`
 //     },
 //     {
+//       title:'Finishing',
 //       img:`${galary6}`
 //     },
 //     {
-      
+//       title:'Cieling Installation',
 //       img:`${galary7}`
 //     },
 //     {
-      
+//       title:'Procurement/Supplies',
 //       img:`${galary8}`
 //     },
-//     {  
+//     {
+//       title:'Finishing',
 //       img:`${galary9}`
 //     },
-//     {  
+//     {
+//       title:'Procurement/Supplies',
 //       img:`${galary10}`
 //     },
 //     {
-//       img:`${galary11}`
-//     },
-//     {
-//       img:`${galary12}`
-//     },
-//     {
+//       title:'Procurement/Supplies',
 //       img:`${galary13}`
 //     },
 //     {
+//       title:'Procurement/Supplies',
 //       img:`${galary14}`
 //     },
 //     {
+//       title:'Procurement/Supplies',
 //       img:`${galary15}`
 //     }
-// ]
+]

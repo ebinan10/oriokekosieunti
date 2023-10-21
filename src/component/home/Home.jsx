@@ -1,5 +1,5 @@
 import React from 'react'
-import companyLogo from '../images/companyLogo.jpg'
+// import companyLogo from '../images/companyLogo.jpg'
 import './home.css'
 import Nav from '../nav/Nav'
 import { Link } from 'react-router-dom'

@@ -4,7 +4,6 @@ import './nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faContactBook, faContactCard, faHome, faPhone, 
   faQuestion, faRightToBracket, faUser, faUserPlus } from '@fortawesome/free-solid-svg-icons'
-import companyLogo from '../images/companyLogo.jpg'
 import phoneLogo from '../icon/pngwing.com (1).png'
 import koseuntiLogo from '../images/koseuntiLogo.jpg'
 import amburger from '../icon/menu.png'
@@ -25,7 +24,7 @@ const Nav = () => {
        const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[black] flex justify-center 
        items-center text-center z-100 items-center bg-[#ccc] `)
        const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center 
-       items-center text-center  items-center  `)
+       items-center text-center items-center`)
 
      const andleMenu = () =>{
       console.log('object');

@@ -1,4 +1,4 @@
-import galvanizeFrame from '../images/galvanizeFrame.jpg'
+// import galvanizeFrame from '../images/galvanizeFrame.jpg'
 
 export const Data =[
    { title:'galvanize frame',
