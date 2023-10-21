@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         </div>
         <div className="md:w-1/2 w-3/5 h-[10vh] items-center flex m-auto justify-center md:gap-5 gap-2">
-          <img className='md:h-[8vh] md:w-[7vw]' src="https://www.pngkey.com/png/full/123-1230334_the-christ-apostolic-church-christ-apostolic-church-logo.png" alt="" />
+          <img className='md:h-[8vh] md:w-[7vw]' src="https://cachouseofpraise.org/wp-content/uploads/2013/09/CAC-Logo.png" alt="" />
           <img className='md:h-[8vh] md:w-[7vw]' src={koseuntiLogo} alt="" />
            
         </div>

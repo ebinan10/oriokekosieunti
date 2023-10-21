@@ -9,7 +9,7 @@ const Gallary = () => {
         <div className='w-full bg-[#ccc] flex justify-center h-full  items-center'>
           <div className="w-full  h-full max-w-[1024px] flex  justify-center items-center">
             <div className="w-full h-full  my-6 pb-6 gap-2 flex flex-wrap justify-evenly items-center">
-               { Data.map((data, i )=>(
+               {/* { Data.map((data, i )=>(
                <div
                key={i}
                className="md:w-[40%] md:h-[40vh] bg-[#8c92a9] w-4/5 h-[30vh] md:m-0 m-4 flex
@@ -23,7 +23,7 @@ const Gallary = () => {
                     /></div>
                
              </div>
-               ))}
+               ))} */}
             </div>
         </div>
       </div>
