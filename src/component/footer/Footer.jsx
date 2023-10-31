@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='w-full  flex flex-col justify-center items-center '>
-      <div className="w-full md:max-h-[70vh] max-h-[120vh]  bg-[#ccc] w-full flex md:flex-row flex-col justify-center items-center">
+      <div className="w-full md:max-h-[90vh] max-h-[130vh]  bg-[#ccc] w-full flex md:flex-row flex-col justify-center items-center">
         <div className="md:w-3/5 w-[92%] mb-4 h-[80%] md:ml-0 ml-[5vw] text-[black] flex justify-evenly item-center">
           <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
             <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Quick Links</h3>

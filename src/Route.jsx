@@ -13,6 +13,7 @@ import Contact from './component/contact/Contact';
 import About from './component/about/About';
 import Header from './component/header/Header';
 import Testimony from './component/testimony/Testimony';
+import Founder from './component/founder/Founder';
 
 const Rout = () => {
   return (
@@ -31,6 +32,7 @@ const Rout = () => {
                 <Route path='gallary' element={<Gallary/>}/>
                 <Route path='about' element={<About/>}/>
                 <Route path='testimony' element={<Testimony/>}/>
+                <Route path='founder' element={<Founder/>}/>
                 <Route path='*' element={<Error/>}/>
               
             </Routes> 
