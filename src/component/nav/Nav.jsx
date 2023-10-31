@@ -39,13 +39,15 @@ const Nav = () => {
 
   return (
     <>
-    <div className='w-full md:fixed top-0 md:min-h-[10vh] z-100 md:mb-[20vh] bg-[black] bg-opacity-40 max-h-[26vh] flex justify-center md:flex-row flex-col items-center  '>
-       <section className=" md:hidden md:w-0  h-[4vh] mt-4 flex justify-end items-center my-auto w-full" id='top-nav'>
-    
+    <div className='w-full md:fixed top-0 md:min-h-[10vh] z-100 md:mb-[20vh] bg-[black] 
+    bg-opacity-40 max-h-[26vh] flex justify-center md:flex-row flex-col items-center'>
+       <section className=" md:hidden md:w-0  h-[4vh] mt-4 flex justify-end items-center my-auto w-full" 
+       id='top-nav'>
+
     <input id="menu-toggle" type="checkbox" className='h-full md:hidden'/>
     <label className='menu-button-container md:hidden w-1/5  ml-auto' for="menu-toggle">
     <div class='menu-button md:hidden'></div>
-  </label>  
+  </label>
    <ul className='z-100 menu md:hidden w-full m-auto mt-[5vh]  text-md'>
     <li className=' w-full h-[7vh] cursor-pointer'>
         <NavLink className={pathname ==='/'? gNavlink:sgNavlink} to="">
@@ -63,13 +65,18 @@ const Nav = () => {
               </NavLink>
               </li>
               <li>
-              <NavLink className={pathname ==='/product'? gNavlink:sgNavlink} to="/product">
+              <NavLink className={pathname ==='/expectation'? gNavlink:sgNavlink} to="/expectation">
               <h1 className=' w-full md:w-0 md:none md:h-0'> Expectation</h1>
                 </NavLink>
               </li>
               <li>
-              <NavLink className={pathname ==='/service'? gNavlink:sgNavlink} to="/service" >
+              <NavLink className={pathname ==='/service'? gNavlink:sgNavlink} to="/testimony" >
                <h1 className=' w-full md:w-0 md:none md:h-0'> Testimony</h1>
+                </NavLink>
+              </li>
+              <li>
+              <NavLink className={pathname ==='/program'? gNavlink:sgNavlink} to="/program" >
+               <h1 className=' w-full md:w-0 md:none md:h-0'> Program</h1>
                 </NavLink>
               </li>
               <li>
@@ -84,8 +91,8 @@ const Nav = () => {
         <div className="md:min-w-[60%] z-0 w-full md:mb-0  relative h-full md:gap-0 gap-2 flex flex-col justify-evenly">
           
           <div className="md:w-full h-[11vh]  hidden md:flex items-center  justify-center">
-          <div className="w-1/2 flex justify-start items-center ">
-              <h1 className='text-[white] text-3xl'>Ori Oke Kosunti</h1>
+          <div className="w-1/4 mr-[5vw] flex justify-end items-center ">
+              <img src={koseuntiLogo} className='w-1/2 h-[9vh] transparent bg-opacity-40' alt="" />
               </div>
             <div className=" md:w-full  h-full flex justify-center items-center"> 
              
@@ -103,21 +110,21 @@ const Nav = () => {
               <h1 className='ml-[3vw] w-full '> About</h1>
               <FontAwesomeIcon icon={faQuestion}  className='w-1/2 h-3 mr-2'/>
               </NavLink>
-              <NavLink className={pathname ==='/product'? activeLink:bgNavlink} to="/product">
+              <NavLink className={pathname ==='/expectation'? activeLink:bgNavlink} to="/expectation">
               <h1 className='ml-[3vw] w-full '> Expectation</h1>
                 </NavLink>
-              <NavLink className={pathname ==='/service'? activeLink:bgNavlink} to="/service" >
+              <NavLink className={pathname ==='/testimony'? activeLink:bgNavlink} to="/testimony" >
               <h1 className=' w-full '> Testimony</h1>
               </NavLink>
-              
-                <NavLink className={pathname ==='/gallary'? activeLink:bgNavlink} to="/gallary" >
+              <NavLink className={pathname ==='/program'? activeLink:bgNavlink} to="/program" >
+              <h1 className=' w-full '> Program</h1>
+              </NavLink>
+              <NavLink className={pathname ==='/gallary'? activeLink:bgNavlink} to="/gallary" >
                <h1 className=' w-full '> Gallary</h1>
                 </NavLink>
 
             </div>
-            <div className="w-1/4 mr-[5vw] flex justify-end items-center ">
-              <img src={koseuntiLogo} className='w-1/2 h-[9vh] transparent bg-opacity-40' alt="" />
-              </div>
+            
           </div>
         </div>
     </div></>

@@ -29,7 +29,8 @@ const About = () => {
                       The Rules and Regulations giving are  simple and straight forward, they includes <br />
                       1. Do not litter the mountain with dirts <br />
                       2. Do not pray loud prayer during Night hours <br />
-                      3. 
+                      3. Do nott eat on the rock <br />
+                      We await your arrival, your prayers will be answered!!!!
                        </h4>
                     </div>
                 </div>

@@ -43,6 +43,9 @@ const Footer = () => {
           <li className='md:m-[10px] m-2 list-none'>Information</li>
           <li className='md:m-[10px] m-2 list-none'>Program Details</li>
           <li className='md:m-[10px] m-2 list-none'>Location Details</li>
+          <Link to="/founder" className=' md:m-[10px] m-2 bg-transparent'>
+            <li className='md:m-[10px] m-2 list-none'>Meet Founder</li>
+            </Link>
         </div>
         </div>
         <div className="md:w-1/4 w-4/5 h-[90px] my-[20px] flex flex-col gap-5 justify-center items-center bg-transparent">
@@ -53,10 +56,11 @@ const Footer = () => {
          </div>   <div><span className='text-xl mr-[7px]  font-black'>&copy;</span>2023 Mountain of Possibility. All rights reserved.</div> 
         </div>
         </div>
+        <div className="w-full bg-[black]">
         <div className="md:w-1/2 w-3/5 h-[10vh] items-center flex m-auto justify-center md:gap-5 gap-2">
           <img className='md:h-[8vh] md:w-[7vw]' src="https://cachouseofpraise.org/wp-content/uploads/2013/09/CAC-Logo.png" alt="" />
           <img className='md:h-[8vh] md:w-[7vw]' src={koseuntiLogo} alt="" />
-           
+           </div>
         </div>
         </div>
   )

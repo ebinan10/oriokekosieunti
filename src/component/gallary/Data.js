@@ -1,21 +1,31 @@
-// import galvanizeFrame from '../images/galvanizeFrame.jpg'
-// import galary1 from '../images/IMG-20230908-WA0000.jpg'
-// import galary2 from '../images/IMG-20230908-WA0001 (1).jpg'
-// import galary3 from '../images/IMG-20230908-WA0001.jpg'
-// import galary4 from '../images/IMG-20230908-WA0002.jpg'
-// import galary5 from '../images/IMG-20230908-WA0003.jpg'
-// import galary6 from '../images/IMG-20230908-WA0004.jpg'
-// import galary7 from '../images/IMG-20230908-WA0006.jpg'
-// import galary8 from '../images/IMG-20230908-WA0007.jpg'
-// import galary9 from '../images/IMG-20230908-WA0009.jpg'
-// import galary10 from '../images/IMG-20230908-WA0010.jpg'
-// import galary11 from '../images/IMG-20230908-WA0011.jpg'
-// import galary12 from '../images/IMG-20230908-WA0012.jpg'
-// import galary13 from '../images/IMG-20230908-WA0013.jpg'
-// import galary14 from '../images/IMG-20230908-WA0014.jpg'
-// import galary15 from '../images/IMG-20230910-WA0001.jpg'
+import galary0 from '../images/babaAtEye.jpeg'
+import galary1 from '../images/babaChating.jpeg'
+import galary2 from '../images/babaLeadingPeolple.jpeg'
+import galary3 from '../images/babaLiftinghands.jpeg'
+import galary4 from '../images/WhatsApp Image 2023-10-19 at 10.18.41 AM.jpeg'
+import galary5 from '../images/babaPicture.jpeg'
+import galary6 from '../images/babaPicture1.jpeg'
+import galary7 from '../images/babaPicture2.jpeg'
+import galary8 from '../images/babaPicture3.jpeg'
+import galary9 from '../images/babaPicture4.jpeg'
+import galary10 from '../images/babaPicture5.jpeg'
+import galary11 from '../images/babaPreacing.jpeg'
+import galary12 from '../images/congregation.jpeg'
+import galary13 from '../images/congregationListening.jpeg'
+import galary14 from '../images/congregationSiting.jpeg'
+import galary15 from '../images/congregationSiting1.jpeg'
 
-// export const Data =[
+import galary16 from '../images/offeringTime.jpeg'
+import galary17 from '../images/peoplePraying.jpeg'
+import galary18 from '../images/peoplePraying1.jpeg'
+
+import galary19 from '../images/peopleWaiting.jpeg'
+import galary20 from '../images/praiseSession.jpeg'
+
+export const Data =[
+//     {
+//         img:`${galary0}`
+//     },
 //    {
 //      img:`${galary1}`
 //     },
@@ -48,19 +58,34 @@
 //     {  
 //       img:`${galary10}`
 //     },
-//     {
-//       img:`${galary11}`
-//     },
-//     {
-//       img:`${galary12}`
-//     },
-//     {
-//       img:`${galary13}`
-//     },
-//     {
-//       img:`${galary14}`
-//     },
-//     {
-//       img:`${galary15}`
-//     }
-// ]
+    {
+      img:`${galary11}`
+    },
+    {
+      img:`${galary12}`
+    },
+    {
+      img:`${galary13}`
+    },
+    {
+      img:`${galary14}`
+    },
+    {
+      img:`${galary15}`
+    },  
+    {
+        img:`${galary16}`
+    },
+    {
+    img:`${galary17}`
+    },
+    {
+    img:`${galary18}`
+    },
+    {
+    img:`${galary19}`
+    },
+    {
+    img:`${galary20}`
+    }
+]

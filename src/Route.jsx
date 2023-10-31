@@ -12,6 +12,7 @@ import Footer from './component/footer/Footer';
 import Contact from './component/contact/Contact';
 import About from './component/about/About';
 import Header from './component/header/Header';
+import Testimony from './component/testimony/Testimony';
 
 const Rout = () => {
   return (
@@ -29,9 +30,10 @@ const Rout = () => {
                 <Route path='program' element={<Program/>}/>
                 <Route path='gallary' element={<Gallary/>}/>
                 <Route path='about' element={<About/>}/>
+                <Route path='testimony' element={<Testimony/>}/>
                 <Route path='*' element={<Error/>}/>
               
-            </Routes>
+            </Routes> 
             {/* <Mailer/> */}
             <Footer/>
         </Router>
