@@ -13,7 +13,7 @@ const Expectation = () => {
       
         <div className='w-full flex flex-col md:flex-row justify-center h-full bg-[black] items-center'>
           <div className="w-full flex flex-col gap-2 mt-[5vh] justify-center items-center">
-        <h1 className=''>EXPECTATION</h1>
+        <h1 className='text-[white]'>EXPECTATION</h1>
         <img src={logo} alt="" className='w-1/2 h-[25vh] mt-[3vh] md:w-[40vw] md:h-[40vh]' />
           </div>
           <div className="w-full h-[27vh] md:h-[50vh] bg-[black] max-w-[1024px] flex  justify-center items-center">
