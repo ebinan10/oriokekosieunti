@@ -7,7 +7,7 @@ const Program = () => {
     <div className='w-full mb-0'>
       <div className="w-full  bg-[#ccc] mx-auto"></div>
        <div className='w-full min-h-[35vh] flex flex-col justify-center h-full bg-base-100 items-center'>
-       <div className="w-full md:h-[60vh] h-[45vh]"> 
+       <div className="w-full md:h-[70vh] h-[45vh]"> 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.8913526224424!2d4.867254491865328!3d7.636812280619829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10381b7ff26eda99%3A0x9ae7a63c09815528!2sMountain%20Of%20Possibilities!5e1!3m2!1sen!2sng!4v1696585156175!5m2!1sen!2sng"    
                 width="100%" height="100%" style={{border:"0"}} allowFullScreen="" loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade" className='flex h-full justify-center items-center text-[white]'><h1>Contact US</h1></iframe>

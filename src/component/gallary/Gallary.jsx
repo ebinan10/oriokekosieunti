@@ -9,7 +9,7 @@ const Gallary = () => {
       
         <div className='w-full bg-[black] flex justify-center h-full  items-center'>
           <div className="w-full  h-full max-w-[1024px] flex  flex-col justify-center items-center">
-            <div className="w-[88%] m-auto mt-[10vh] md:mt-[20vh]">
+            <div className="w-[80%] m-auto mt-[10vh] md:mt-[20vh]">
               <img src={logo} alt="" className='w-full h-[25vh] mt-[3vh] md:w-[40vw] md:h-[40vh]' />
               <h1 className="text-justify text-[#ccc] text-lg md:text-xl mt-[4vh]">
                 As a commision we have captured beautiful moment in which you can see us as an entity that 

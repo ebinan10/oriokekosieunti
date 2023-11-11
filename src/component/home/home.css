@@ -4,9 +4,11 @@
     background-image: 
     url('../home/mountain1.jpeg'),
     url('../home/mountain2.jpeg'),
-    url('../home/mountain3.jpeg');
+    url('../home/mountain3.jpeg'),
+    url('../home/mountain4.jpeg'),
+    url('../home/mountain5.jpeg');
     background-size: cover;
-    background-position:center;
+    background-position:center; 
     animation: change 100s infinite linear;
 }
 @keyframes change{
@@ -20,7 +22,9 @@
         background-image: url('../home/mountain3.jpeg');
     }
     60%{
-        background-image: url('../images/congregation.jpeg');
+        background-image: url('../home/mountain4.jpeg');
     }
-    
+    80%{
+        background-image: url('../home/mountain5.jpeg');;
+    }
 }
