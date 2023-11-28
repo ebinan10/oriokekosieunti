@@ -14,50 +14,50 @@ const Program = () => {
             </div>
         <div className="w-full bg-[black] flex flex-col justify-center items-center">
        <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       <p className='text-justify text-base-100 md:text-2xl text-2xl font-bold mt-2'>  Programs at Mountain:</p>
-         <p className='text-[white]'> The Daily Programs in the mountain includes the following:
-        </p><br />
-         <parent className='text-justify text-base-100 md:text-xl text-xl'> 
+       <p className='text-justify text-base-100 md:text-xl text-mdsmont-bold mt-2'>  Programs at Mountain:</p>
+         <h1 className='text-[white] text-lg md:text-lg '> The Daily Programs in the mountain includes the following:
+        </h1><br />
+         <p className='text-justify text-base-100 md:text-md text-sm'> 
            1. My Sorrow is over, Wednesday 9am - 12pm.
           <br />
-         </parent> 
-         <p className='text-justify text-base-100 md:text-xl text-xl'>
+         </p> 
+         <p className='text-justify text-base-100 md:text-md text-sm'>
          2. Change my life for better, Friday 9am - 12pm.
            <br /></p>
         </div>
         <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       <p className='text-justify text-base-100 md:text-2xl text-2xl font-bold mt-2'>  Weekly Programs at Mountain:</p>
-       <p className='text-[white]'> The Weekly Programs in the mountain includes the following:
-        </p> <br />
-         <p className='text-justify text-base-100 md:text-xl text-xl'> 
+       {/* <p className='text-justify text-base-100 md:text-xl text-sm font-bold mt-2'>  Weekly Programs at Mountain:</p> */}
+       <h1 className='text-[white] text-lg md:text-lg '> The Weekly Programs in the mountain includes the following:
+        </h1> <br />
+         <p className='text-justify text-base-100 md:text-md text-sm'> 
            1. Possibility Day, Every last Thursday 12pm.
           <br />
          </p> 
-         <h1 className='text-justify text-base-100 md:text-xl text-xl'>
+         <h1 className='text-justify text-base-100 md:text-md text-sm'>
            2. Power House Encounter, Night Session  1pm - 6am.
            <br /></h1>
-           <p className='text-justify text-base-100 md:text-xl text-xl'>
+           <p className='text-justify text-base-100 md:text-md text-sm'>
           3. Possibility Prophetic Night Session.
            <br /></p>
         </div>   
         <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       <p className='text-justify text-base-100 md:text-2xl text-2xl font-bold mt-2'>  Monthly Programs at Mountain:</p>
-       <p className='text-[white]'> The Monthly Programs in the mountain includes the following:
-        </p><br />
+       {/* <p className='text-justify text-base-100 md:text-xl text-sm font-bold mt-2'>  Monthly Programs at Mountain:</p> */}
+       <h1 className='text-[white] text-lg md:text-lg  text-'> The Monthly Programs in the mountain includes the following:
+        </h1><br />
          <p className='text-justify text-base-100 md:text-xl text-lg'> 
            1. Anoint Me with the Power of Success, First Thursday in every Three Month 9am - 12pm.
           <br />
          </p> 
         </div> 
         <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       <p className='text-justify text-base-100 md:text-2xl text-2xl font-bold mt-2'>Ministries Renewal Summit:</p>
-       <p className='text-[white]'> Renew my Power At Power House: </p>
+       <h1 className='text-justify text-base-100 md:text-xl text-lg font-bold mt-2'>Ministries Renewal Summit:</h1>
+       <h1 className='text-[white] text-md md:text-lg '> Renew my Power At Power House: </h1>
         <br />
-         <p className='text-justify text-base-100 md:text-xl text-xl'> 
+         <p className='text-justify text-base-100 md:text-md text-sm'> 
            1. First Thursday of Every Month - 9am.
           <br />
           </p>
-          <p className='text-justify text-base-100 md:text-xl text-xl'> 
+          <p className='text-justify text-base-100 md:text-md text-sm'> 
           2. Every First Day of The Month - 10pm. 
           <br />
          </p> 

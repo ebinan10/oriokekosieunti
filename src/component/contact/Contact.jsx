@@ -21,7 +21,7 @@ const Contact = () => {
                </div> 
                 <div className="w-full">
                     <h1 className='text-base-100 md:text-xl text-sm'>
-                    Ado-Ekiti road Erinmo, Erinmo-Ijeshaa <br /> Iwaraja, Soun State.
+                    Ado-Ekiti road Erinmo, Erinmo-Ijeshaa <br /> Iwaraja, Osun State.
                     <br /> Lagos – Nigeria. <br />
                    <h3 className='font-italics md:text-xl text-sm'> mountainpossibility@gmail.com </h3>
                     Mobile: +234-8038074339 <br />

@@ -21,8 +21,8 @@ const Testimony = () => {
                     justify-evenly flex-col items-center md:mt-5 md:mb-0 h-full rounded"
                 >
                   <div className="w-[90%] mt-4 h-full flex flex-col bg-[white] m-auto h-[40vh] md:h-[100vh] justify-center items-center">
-                  <p className="md:w-[95%] md:pb-[5vh] pt-5 text-[black] text-xl md:text-xl my-auto w-[90%]  rounded-lg  "
-                        >{data.testimony}<h1 className="md:w-full  text-[black] text-xl md:text-2xl my-auto w-[90%] h-[5vh] rounded-lg md:h-[7vh] ">
+                  <p className="md:w-[95%] md:pb-[5vh] pt-5 text-[black] text-sm md:text-md my-auto w-[90%]  rounded-lg  "
+                        >{data.testimony}<h1 className="md:w-full  text-[black] text-md md:text-xl my-auto w-[90%] h-[5vh] rounded-lg md:h-[7vh] ">
                             {data.testifier}
                         </h1></p>
                    </div>
