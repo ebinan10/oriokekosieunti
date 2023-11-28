@@ -14,7 +14,7 @@ const Program = () => {
             </div>
         <div className="w-full bg-[black] flex flex-col justify-center items-center">
        <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       <p className='text-justify text-base-100 md:text-xl text-md font-bold mt-2'>  Programs at Mountain:</p>
+       <h1 className='text-justify text-base-100 md:text-xl text-lg font-bold mt-2'>  Programs at Mountain:</h1>
          <h1 className='text-[white] text-lg md:text-lg '> The Daily Programs in the mountain includes the following:
         </h1><br />
          <p className='text-justify text-base-100 md:text-md text-sm'> 
