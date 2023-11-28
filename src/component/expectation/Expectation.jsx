@@ -14,10 +14,10 @@ const Expectation = () => {
         <div className='w-full flex flex-col md:flex-row justify-center h-full bg-[black] items-center'>
           <div className="w-full flex flex-col gap-2 mt-[5vh] justify-center items-center">
         <h1 className='w-full flex justify-center md:justify-end items-center md:items-end text-[white] text-sm md:text-md'>EXPECTATION</h1>
-        <img src={logo} alt="" className='w-1/3 h-[22vh] my-[3vh] md:w-[40vw] md:h-[40vh]' />
+        <img src={logo} alt="" className='w-1/3 h-[12vh] my-[3vh] md:w-[40vw] md:h-[40vh]' />
           </div>
           <div className="w-full h-[27vh] md:h-[50vh] bg-[black] max-w-[1024px] flex  justify-center items-center">
-               <h1 className=' text-[white] text-md md:text-lg text-justify'>
+               <h1 className=' text-[white] text-sm md:text-lg text-justify'>
                   What are you believing the Lord for, <br /> is it Fruit of the womb ? <br />
                   Marriage ? <br /> Job ? <br /> Business Breakthrough ? <br /> Healing? <br />
                   whatever the challenge is just know that <br />
