@@ -16,7 +16,7 @@ const Contact = () => {
             <img src={kosunti} alt="" className='w-[30vw] h-1/2'/>
         </div>
              <div className="md:w-2/3 w-full md:h-full h-[60vh] flex flex-col justify-center item-center">
-                <h1 className='pb-3 w-full flex md:mt-0  md:justify-start justify-center text-base-100 md:text-3xl text-xl'>Contact</h1>
+                <h1 className='pb-3 w-full flex md:mt-0  md:justify-start justify-center text-base-100 md:text-3xl text-lg'>Contact</h1>
               <div className="w-full"><h1 className=' md:text-3xl text-lg text-base-100 '> Mountain of Possibility.</h1>
                </div> 
                 <div className="w-full">

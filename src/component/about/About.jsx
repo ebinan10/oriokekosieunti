@@ -19,7 +19,7 @@ const About = () => {
               </div>
              <div className="w-4/5 h-full m-auto mt-[3vh]">
                     <h1 className='w-full text-[white] text-start md:text-xl text-md p-3'>Our Mission/ Vision</h1>
-                      <h4 className=' text-[white] md:text-sm text-sm p-5 text-justify'>
+                      <h4 className=' text-[white] md:text-md text-sm p-5 text-justify'>
                         The vision of God that he delivered to our founding father, Prophet Evangelist Abraham Olubiyo Ojo is that any thing that is difficult and that man says cannot
                         be possible he will make easy in the life of anyone that believes.
                        </h4>

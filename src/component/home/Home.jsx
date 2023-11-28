@@ -23,8 +23,8 @@ const Home = () => {
             </div>
             <div className="w-full bg-[black] flex flex-col justify-center items-center">
             <div className="md:w-3/4 w-full md:m-[50px] py-[20px] text-[grey]  bg-[black] flex justify-center items-center"><div className="md:w-full w-[80%]">
-              <h1 className='md:text-2xl text-lg tracking-wide md:text-[#8c92ac] text-[white] my-3' >Welcome to Mountain of Possibility.</h1>
-              <h1 className='text-justify md:text-xl text-md md:mb-0 mb-3 leading-loose md:text-[#8c92ac] text-[white]'>Mountain of Possibility, situated at the heart of Osun, Erinmo Ijesha to be precise, is the home of answered
+              <h1 className='md:text-2xl text-md tracking-wide md:text-[#8c92ac] text-[white] my-3' >Welcome to Mountain of Possibility.</h1>
+              <h1 className='text-justify md:text-md text-sm md:mb-0 mb-3 leading-loose md:text-[#8c92ac] text-[white]'>Mountain of Possibility, situated at the heart of Osun, Erinmo Ijesha to be precise, is the home of answered
               prayers, God has been seen, heard and witnessed in our midst, whatever the challenge is the God of this covenant will settle it.
                Reffered to as the Jerusalem Hub of Africa, Ori Oke Kosunti, with it Artifact, Caves, and Stone are Quite unique that proves and validate the hand of God in our midst. 
                </h1>

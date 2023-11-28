@@ -19,23 +19,23 @@ const Footer = () => {
     <div className='w-full  flex flex-col justify-center items-center '>
       <div className="w-full md:max-h-[90vh] max-h-[130vh]  bg-[#ccc] w-full flex md:flex-row flex-col justify-center items-center">
         <div className="md:w-3/5 w-[92%] mb-4 h-[80%] md:ml-0 ml-[5vw] text-[black] flex justify-evenly item-center">
-          <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
-            <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Quick Links</h3>
-            <Link  to="/contact" className=' md:m-[10px]  bg-transparent'> Contact</Link>
-            <Link to="/about" className=' md:m-[10px] m-2 bg-transparent'>About</Link>
-            <Link to="/product" className=' md:m-[10px] m-2 bg-transparent'>Expectation</Link>
-            <Link to="/service" className=' md:m-[10px] m-2 bg-transparent'>Testimony</Link>
-            <Link to="/gallary" className=' md:m-[10px] m-2 bg-transparent'>Gallary</Link>
+          <div className='mt-[10px] h-full md:text-md gap-2 text-sm flex flex-col'>
+            <h3 className='md:m-[10px] text-lg h-[10vh] md:mb-0 mb-1 flex justify-center items-center font-bold'>Quick Links</h3>
+            <Link  to="/contact" className=' md:m-[15px]  bg-transparent'> Contact</Link>
+            <Link to="/about" className=' md:m-[15px] m-2 bg-transparent'>About</Link>
+            <Link to="/product" className=' md:m-[15px] m-2 bg-transparent'>Expectation</Link>
+            <Link to="/service" className=' md:m-[15px] m-2 bg-transparent'>Testimony</Link>
+            <Link to="/gallary" className=' md:m-[15px] m-2 bg-transparent'>Gallary</Link>
         </div> 
         
-        <div className='mt-[10px] h-full md:text-xl gap-2 text-md flex flex-col'>
+        <div className='mt-[10px] h-full md:text-md gap-2 text-sm flex flex-col'>
           <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Program</h3>
           <li className='md:m-[10px] m-2 list-none'>Anniversary</li>
           <li className='md:m-[10px] m-2 list-none'>Weekly Program</li>
           <li className='md:m-[10px] m-2 list-none'>Monthly Program</li>
           <li className='md:m-[10px] m-2 list-none'>Sunday Service</li>
         </div>
-        <div className='mt-[10px] md:text-xl h-full md:mr-0 mr-3 gap-2 text-md flex flex-col'>
+        <div className='mt-[10px] md:text-xl h-full md:mr-0 mrmd gap-2 text-sm flex flex-col'>
         <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Content</h3>
           <li className='md:m-[10px] m-2 list-none'>Email Address</li>
           <li className='md:m-[10px] m-2 list-none'>Phone Number</li>
