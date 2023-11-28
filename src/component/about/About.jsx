@@ -9,7 +9,7 @@ const About = () => {
     width="100%" height="100%" style={{border:"0"}} allowFullScreen="" loading="lazy" 
     referrerpolicy="no-referrer-when-downgrade" className='flex h-full justify-center items-center text-[white]'><h1>Contact US</h1></iframe>
           </div>
-        <div className="md:full w-[100%] bg-[black] md:mt-0 pt-[6vh] md:h-3/4 h-4/5 flex md:flex-row flex-col m-auto justify-center items-center">
+        <div className="md:full w-[100%] bg-[black] md:pt-0 pt-[6vh] md:h-3/4 h-4/5 flex md:flex-row flex-col m-auto justify-center items-center">
         <div className="md:w-1/3 w-full h-[25vh] md:h-full flex justify-center items-center">
             <img src={kosunti} alt="" className='w-[30vw] md:h-1/2 '/>
         </div>
