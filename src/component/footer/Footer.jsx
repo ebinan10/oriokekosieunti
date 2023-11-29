@@ -35,7 +35,7 @@ const Footer = () => {
           <li className='md:m-[10px] m-2 list-none'>Monthly Program</li>
           <li className='md:m-[10px] m-2 list-none'>Sunday Service</li>
         </div>
-        <div className='mt-[10px] md:text-xl h-full md:mr-0 mrmd gap-2 text-sm flex flex-col'>
+        <div className='mt-[10px] md:text-md h-full md:mr-0 mrmd gap-2 text-sm flex flex-col'>
         <h3 className='md:m-[10px] text-lg h-[10vh] flex justify-center items-center font-bold'>Content</h3>
           <li className='md:m-[10px] m-2 list-none'>Email Address</li>
           <li className='md:m-[10px] m-2 list-none'>Phone Number</li>
