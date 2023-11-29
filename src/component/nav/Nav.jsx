@@ -94,7 +94,7 @@ const Nav = () => {
           <div className="w-1/4 mr-[5vw] flex justify-end items-center ">
               <img src={koseuntiLogo} className='w-1/2 h-[9vh] transparent bg-opacity-40' alt="" />
               </div>
-            <div className=" md:w-full  h-full flex justify-center items-center"> 
+            <div className=" md:w-full text-sm h-full flex justify-center items-center"> 
              
               <NavLink className={pathname =='/'? activeLink:bgNavlink} to="/">
               <h1 className='ml-[3vw] w-full '>Home</h1>

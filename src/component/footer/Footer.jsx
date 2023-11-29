@@ -53,7 +53,7 @@ const Footer = () => {
        <Link className='bg-transparent' to="https://www.instagram.com/nuvie_drywall_enterprise/"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={instagram} alt=""></img></Link>
        <Link className='bg-transparent' to="https://www.facebook.com/erinmopossibiltymountain/?_rdc=2&_rdr"><img className='ml-6 md:h-[4vh] w-[6vw] md:w-[4vw] h-[7vh]' src={Facebook} alt=""></img></Link>
        
-         </div>   <div><span className='text-xl mr-[7px]  font-black'>&copy;</span>2023 Mountain of Possibility. All rights reserved.</div> 
+         </div>   <div className='text-sm md:text-md'><span className='text-sm md:text-md mr-[7px]  font-black'>&copy;</span>2023 Mountain of Possibility. All rights reserved.</div> 
         </div>
         </div>
         <div className="w-full bg-[black]">

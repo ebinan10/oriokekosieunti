@@ -14,7 +14,7 @@ const Program = () => {
             </div>
         <div className="w-full bg-[black] flex flex-col justify-center items-center">
        <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       <h1 className='text-justify text-base-100 md:text-xl text-lg font-bold mt-2'>  Programs at Mountain:</h1>
+       <h1 className='text-justify text-base-100 md:text-lg text-lg font-bold mt-2'>  Programs at Mountain:</h1>
          <h1 className='text-[white] text-lg md:text-lg '> The Daily Programs in the mountain includes the following:
         </h1><br />
          <p className='text-justify text-base-100 md:text-md text-sm'> 
@@ -41,17 +41,17 @@ const Program = () => {
            <br /></p>
         </div>   
         <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       {/* <p className='text-justify text-base-100 md:text-xl text-sm font-bold mt-2'>  Monthly Programs at Mountain:</p> */}
+       {/* <p className='text-justify text-base-100 md:text-md text-sm font-bold mt-2'>  Monthly Programs at Mountain:</p> */}
        <h1 className='text-[white] text-lg md:text-lg  text-'> The Monthly Programs in the mountain includes the following:
         </h1><br />
-         <p className='text-justify text-base-100 md:text-xl text-lg'> 
+         <p className='text-justify text-base-100 md:text-md text-sm'> 
            1. Anoint Me with the Power of Success, First Thursday in every Three Month 9am - 12pm.
           <br />
          </p> 
         </div> 
         <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       <h1 className='text-justify text-base-100 md:text-xl text-lg font-bold mt-2'>Ministries Renewal Summit:</h1>
-       <h1 className='text-[white] text-md md:text-lg '> Renew my Power At Power House: </h1>
+       <h1 className='text-justify text-base-100 md:text-md text-lg font-bold mt-2'>Ministries Renewal Summit:</h1>
+       <h1 className='text-[white] text-sm md:text-md '> Renew my Power At Power House: </h1>
         <br />
          <p className='text-justify text-base-100 md:text-md text-sm'> 
            1. First Thursday of Every Month - 9am.
