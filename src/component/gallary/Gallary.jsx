@@ -11,7 +11,7 @@ const Gallary = () => {
           <div className="w-full  h-full max-w-[1024px] flex  flex-col justify-center items-center">
             <div className="w-[80%] m-auto mt-[10vh] md:mt-[20vh]">
               <img src={logo} alt="" className='w-full h-[25vh] mt-[3vh] md:w-[40vw] md:h-[40vh]' />
-              <h1 className="text-justify text-[#ccc] text-sm md:text-xl mt-[4vh]">
+              <h1 className="text-justify text-[#ccc] text-sm md:text-md mt-[4vh]">
                 As a commision we have captured beautiful moment in which you can see us as an entity that 
                 is to be recond with, God has used us, his servant "Prophet Evang Abraham Olubiyo Ojo" to 
                 be a blessing to multitudes and nations. <br /> 
