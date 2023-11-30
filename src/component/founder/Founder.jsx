@@ -11,7 +11,7 @@ const Founder = () => {
                 referrerpolicy="no-referrer-when-downgrade" className='flex h-full justify-center items-center text-[white]'><h1>Contact US</h1></iframe>
             </div>
             <div className="w-full flex justify-center items-center bg-[black] md:h-[25vh] h-[16vh]">
-               <h1 className='text-sm my-auto md:h-1/2 h-1/2 md:pb-0 pb-[2vh] text-justify w-4/5 md:w-[88%] md:text-md text-[white]'> 
+               <h1 className='text-sm md:h-1/2 h-full md:pb-0 pt-[4vh] text-justify w-4/5 md:w-[88%] md:text-md text-[white]'> 
                 The founder Evangelist Prophet Abraham Olubiyo Ojo is a seasoned Minister 
                 of God that Loves Jesus and passionate to see men saved and come into the 
                 fullness of what God has for them, his simplicity towards other shows his love
