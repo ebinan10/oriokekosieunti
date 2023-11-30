@@ -40,17 +40,19 @@ const Nav = () => {
   return (
     <>
     <div className='w-full md:fixed top-0 md:min-h-[10vh] z-100 md:mb-[20vh] bg-[black] 
-    bg-opacity-40 max-h-[26vh] flex justify-center md:flex-row flex-col items-center'>
-       <section className=" md:hidden md:w-0  h-[4vh] mt-4 flex justify-end items-center my-auto w-full" 
+    bg-opacity-40 max-h-[26vh] flex justify-end md:flex-row flex-col items-end'>
+       <section className=" md:hidden md:w-0  h-[4vh] mt-4 flex justify-end items-center mx-auto my-auto w-full" 
        id='top-nav'>
 
     <input id="menu-toggle" type="checkbox" className='h-full md:hidden'/>
     <label className='menu-button-container md:hidden w-1/5  ml-auto' for="menu-toggle">
     <div class='menu-button md:hidden'></div>
-  </label>
-   <ul className='z-100 menu md:hidden w-full m-auto mt-[5vh]  text-md'>
-    <li className=' w-full h-[7vh] cursor-pointer'>
-        <NavLink className={pathname ==='/'? gNavlink:sgNavlink} to="">
+    </label>
+  
+   <ul className='z-100 menu md:hidden w-1/2 flex justify-end items-end text-sm'>
+              {/* <div className="w-1/2"> */}
+              <li className=' w-full h-[7vh] cursor-pointer'>
+              <NavLink className={pathname ==='/'? gNavlink:sgNavlink} to="">
               <h1 className='ml-[3vw] w-full md:w-0 md:none md:h-0 '>Home</h1>
               </NavLink>
              </li>
@@ -84,6 +86,7 @@ const Nav = () => {
                <h1 className=' w-full '> Gallary</h1>
                 </NavLink>
               </li>
+              {/* </div> */}
    </ul>
   </section>
   
