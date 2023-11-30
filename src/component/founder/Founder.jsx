@@ -3,7 +3,7 @@ import { Data } from './Data'
 
 const Founder = () => {
   return (
-    <div className='bg-[black] min-h-[10vh] md:min-h-[50vh]'>
+    <div className='bg-[black] min-h-[40vh] md:min-h-[50vh]'>
         <div className="w-full h-full bg-[black]">
             <div className="w-full md:h-[60vh] h-[45vh]"> 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.8913526224424!2d4.867254491865328!3d7.636812280619829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10381b7ff26eda99%3A0x9ae7a63c09815528!2sMountain%20Of%20Possibilities!5e1!3m2!1sen!2sng!4v1696585156175!5m2!1sen!2sng"    
