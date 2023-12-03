@@ -13,7 +13,6 @@ const Nav = () => {
 
       const location = useLocation();
       const pathname  = location.pathname
-      console.log(location);
 
 
       const [menuBtn, setMenuBtn] = useState(cancel)
@@ -21,7 +20,7 @@ const Nav = () => {
        text-[white] items-center  `)
        const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex 
        text-[white] items-center `)
-       const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[black] flex justify-center 
+       const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[orange] flex justify-center 
        items-center text-center z-100 items-center bg-[#ccc] `)
        const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center 
        items-center text-center items-center`)
@@ -78,7 +77,7 @@ const Nav = () => {
               </li>
               <li>
               <NavLink className={pathname ==='/program'? gNavlink:sgNavlink} to="/program" >
-               <h1 className=' w-full md:w-0 md:none md:h-0'> Program</h1>
+               <h1 className=' w-full md:w-0 md:none md:h-0'> Programs</h1>
                 </NavLink>
               </li>
               <li>
@@ -95,7 +94,7 @@ const Nav = () => {
           
           <div className="md:w-full h-[11vh]  hidden md:flex items-center  justify-center">
           <div className="w-1/4 mr-[5vw] flex justify-end items-center ">
-              <img src={koseuntiLogo} className='w-1/2 h-[9vh] transparent bg-opacity-40' alt="" />
+              <img src={koseuntiLogo} className='w-[132px] h-[35px] transparent bg-opacity-40' alt="" />
               </div>
             <div className=" md:w-full text-sm h-full flex justify-center items-center"> 
              
@@ -120,7 +119,7 @@ const Nav = () => {
               <h1 className=' w-full '> Testimony</h1>
               </NavLink>
               <NavLink className={pathname ==='/program'? activeLink:bgNavlink} to="/program" >
-              <h1 className=' w-full '> Program</h1>
+              <h1 className=' w-full '> Programs</h1>
               </NavLink>
               <NavLink className={pathname ==='/gallary'? activeLink:bgNavlink} to="/gallary" >
                <h1 className=' w-full '> Gallary</h1>

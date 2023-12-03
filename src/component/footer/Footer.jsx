@@ -23,8 +23,9 @@ const Footer = () => {
             <h3 className='md:m-[10px] text-lg h-[10vh] md:mb-0 mb-1 flex justify-center items-center font-bold'>Quick Links</h3>
             <Link  to="/contact" className=' md:m-[15px]  bg-transparent'> Contact</Link>
             <Link to="/about" className=' md:m-[15px] m-2 bg-transparent'>About</Link>
-            <Link to="/product" className=' md:m-[15px] m-2 bg-transparent'>Expectation</Link>
-            <Link to="/service" className=' md:m-[15px] m-2 bg-transparent'>Testimony</Link>
+            <Link to="/expectation" className=' md:m-[15px] m-2 bg-transparent'>Expectation</Link>
+            <Link to="/program" className=' md:m-[15px] m-2 bg-transparent'>Programs</Link>
+            <Link to="/testimony" className=' md:m-[15px] m-2 bg-transparent'>Testimony</Link>
             <Link to="/gallary" className=' md:m-[15px] m-2 bg-transparent'>Gallary</Link>
         </div> 
         
