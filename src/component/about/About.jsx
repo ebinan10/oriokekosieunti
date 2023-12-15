@@ -25,7 +25,7 @@ const About = () => {
                        </h4>
                     
                     <h1 className='w-full text-[white] text-start md:text-xl text-md p-3'>Rules and Regulations</h1>
-                      <h4 className='text-[white] md:text-md text-sm p-3 mb-3 text-justify'>
+                      <h4 className='text-[white] md:text-md text-sm p-3 mb-[3vh] text-justify'>
                       The Rules and Regulations giving are  simple and straight forward, they includes <br />
                       1. Do not litter the mountain with dirts <br />
                       2. Do not pray loud prayer during Night hours <br />
