@@ -93,12 +93,12 @@ const Nav = () => {
         <div className="md:min-w-[60%] z-0 w-full md:mb-0  relative h-full md:gap-0 gap-2 flex flex-col justify-evenly">
           
           <div className="md:w-full h-[11vh]  hidden md:flex items-center  justify-center">
-          <div className="w-1/4 mr-[5vw] flex justify-end items-center ">
-              <img src={koseuntiLogo} className='w-[132px] h-[35px] transparent bg-opacity-40' alt="" />
+          <div className="w-[110px] h-[60px] mr-8  bg-[black] rounded-full flex justify-center items-center ">
+              <img src={koseuntiLogo} className='w-[70px] h-[40px] transparent bg-opacity-40' alt="" />
               </div>
             <div className=" md:w-full text-sm h-full flex justify-center items-center"> 
-             
-              <NavLink className={pathname =='/'? activeLink:bgNavlink} to="/">
+              
+              <NavLink className={pathname =='/'? activeLink:bgNavlink} to="/">     
               <h1 className='ml-[3vw] w-full '>Home</h1>
               <FontAwesomeIcon icon={faHome} className='w-1/2 h-3 mr-2'/>
               </NavLink>
