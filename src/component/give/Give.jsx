@@ -12,11 +12,11 @@ const Give = () => {
     referrerpolicy="no-referrer-when-downgrade" className='flex h-full justify-center md:text-2xl items-center text-[white]'>
       <h1>Give Online</h1></iframe>
           </div>
-        <div className="md:full w-[100%] bg-[black] h-1/2 md:pb-0 pb-[5vh] flex md:flex-row flex-col justify-center items-center">
+        <div className="md:full w-[100%] bg-[black] md:h-1/2 h-[55vh] md:pb-0 pb-[5vh] flex md:flex-row flex-col justify-center items-center">
         <div className="md:w-1/3 w-full md:pl-[10vw] md:mt-[5vh] h-full flex justify-center items-center">
-            <img src={kosunti} alt="" className='w-[30vw] h-1/2'/>
+            <img src={kosunti} alt="" className='w-[37vw] md:h-1/2 h-[14vh]'/>
         </div>
-             <div className="md:w-2/3 w-full md:h-[90%] h-[30vh] flex flex-col justify-center item-center">
+             <div className="md:w-2/3 w-full md:h-[90%] h-[35vh] flex flex-col justify-center item-center">
                 <h1 className='pb-3 w-full flex md:mt-0  md:justify-start justify-center text-base-100 md:text-2xl text-lg'>Give Online</h1>
               <div className="w-full"><h1 className=' md:text-xl text-md text-base-100 '> Mountain of Possibility.</h1>
                </div> 
