@@ -40,7 +40,7 @@ const Nav = () => {
     <>
     <div className='w-full md:fixed top-0 md:min-h-[10vh] z-100 md:mb-[20vh] bg-[black] 
     md:bg-opacity-40 bg-opacity-80 max-h-[26vh] flex justify-end md:flex-row flex-col items-end'>
-       <section className=" md:hidden md:w-0  h-[4vh] mt-4 flex justify-end items-center mx-auto my-auto w-full" 
+       <section className=" md:hidden md:w-0  h-[6vh] mt-0 flex justify-end items-center mx-auto my-auto w-full" 
        id='top-nav'>
 
     <input id="menu-toggle" type="checkbox" className='h-full md:hidden'/>
