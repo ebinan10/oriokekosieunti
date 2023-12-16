@@ -4,7 +4,7 @@ import kosunti from '../images/koseuntiLogo.jpg'
 const Give = () => {
   return (
     <div>
-    <div className='w-full  flex-col md:h-[130vh] h-[90vh]  flex justify-center items-center'>
+    <div className='w-full  flex-col md:h-[130vh] h-[100vh]  flex justify-center items-center'>
        <div className="w-full md:h-[80vh] h-[45vh]"> 
        
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.8913526224424!2d4.867254491865328!3d7.636812280619829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10381b7ff26eda99%3A0x9ae7a63c09815528!2sMountain%20Of%20Possibilities!5e1!3m2!1sen!2sng!4v1696585156175!5m2!1sen!2sng"    
@@ -12,7 +12,7 @@ const Give = () => {
     referrerpolicy="no-referrer-when-downgrade" className='flex h-full justify-center md:text-2xl items-center text-[white]'>
       <h1>Give Online</h1></iframe>
           </div>
-        <div className="md:full w-[100%] bg-[black] md:min-h-1/2 min-h-[55vh] m-[10px] md:pb-0 pb-[5vh] flex md:flex-row flex-col justify-center items-center">
+        <div className="md:full w-[100%] bg-[black] md:min-h-1/2 min-h-[55vh] p-[7vh] md:pb-0 pb-[5vh] flex md:flex-row flex-col justify-center items-center">
         <div className="md:w-1/3 w-full md:pl-[10vw] md:mt-[5vh] p-3 h-full flex justify-center items-center">
             <img src={kosunti} alt="" className='w-[37vw] md:h-1/2 h-[14vh]'/>
         </div>
