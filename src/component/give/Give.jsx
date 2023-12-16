@@ -4,7 +4,7 @@ import kosunti from '../images/koseuntiLogo.jpg'
 const Give = () => {
   return (
     <div>
-    <div className='w-full  flex-col md:h-[130vh] h-[100vh]  flex justify-center items-center'>
+    <div className='w-full  flex-col md:h-[130vh] h-[110vh]  flex justify-center items-center'>
        <div className="w-full md:h-[80vh] h-[45vh]"> 
        
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.8913526224424!2d4.867254491865328!3d7.636812280619829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10381b7ff26eda99%3A0x9ae7a63c09815528!2sMountain%20Of%20Possibilities!5e1!3m2!1sen!2sng!4v1696585156175!5m2!1sen!2sng"    
@@ -26,7 +26,7 @@ const Give = () => {
                     or you can ask any of the servant of God on the mountain for the account details of which you can sow your seed, you can also 
                     give your resources directly by coming with it to the mountain.<br/> 
                    </h1>
-                    <h1 className='w-full text-base-100 md:text-md md:pb-0 pb-7 mt-3 flex justify-center items-center text-sm  text-center'>
+                    <h1 className='w-full text-base-100 md:text-md md:pb-0  mt-3 flex justify-center items-center text-sm  text-center'>
                     Mobile: +234-8038074339 
                     <br />
                     Phone: +234-9155267388
