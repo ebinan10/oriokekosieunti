@@ -14,6 +14,7 @@ import About from './component/about/About';
 import Header from './component/header/Header';
 import Testimony from './component/testimony/Testimony';
 import Founder from './component/founder/Founder';
+import Give from './component/give/Give';
 
 const Rout = () => {
   return (
@@ -33,6 +34,7 @@ const Rout = () => {
                 <Route path='about' element={<About/>}/>
                 <Route path='testimony' element={<Testimony/>}/>
                 <Route path='founder' element={<Founder/>}/>
+                <Route path='give' element={<Give/>}/>
                 <Route path='*' element={<Error/>}/>
               
             </Routes> 

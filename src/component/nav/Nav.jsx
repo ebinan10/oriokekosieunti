@@ -18,12 +18,12 @@ const Nav = () => {
       const [menuBtn, setMenuBtn] = useState(cancel)
       const [bgNavlink, setBgNavlink  ] = useState(`md:w-[20%] none h-[6vh] flex 
        text-[white] items-center  `)
-       const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex 
-       text-[white] items-center `)
+       const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex bg-[white]
+       text-[black] rounded-md bg-opacity-40 items-center `)
        const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[orange] flex justify-center 
-       items-center text-center z-100 items-center bg-[#ccc] `)
+       items-center text-center z-100 items-center bg-[#ccc] rounded-lg`)
        const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center 
-       items-center text-center items-center`)
+       items-center text-center items-center rounded-md`)
 
      const andleMenu = () =>{
       console.log('object');
@@ -76,6 +76,11 @@ const Nav = () => {
                 </NavLink>
               </li>
               <li>
+              <NavLink className={pathname ==='/give'? gNavlink:sgNavlink} to="/give" >
+               <h1 className=' w-full md:w-0 md:none md:h-0'> Give</h1>
+                </NavLink>
+              </li>
+              <li>
               <NavLink className={pathname ==='/program'? gNavlink:sgNavlink} to="/program" >
                <h1 className=' w-full md:w-0 md:none md:h-0'> Programs</h1>
                 </NavLink>
@@ -117,6 +122,9 @@ const Nav = () => {
                 </NavLink>
               <NavLink className={pathname ==='/testimony'? activeLink:bgNavlink} to="/testimony" >
               <h1 className=' w-full '> Testimony</h1>
+              </NavLink>
+              <NavLink className={pathname ==='/give'? activeLink:bgNavlink} to="/give" >
+              <h1 className=' w-full '>Give</h1>
               </NavLink>
               <NavLink className={pathname ==='/program'? activeLink:bgNavlink} to="/program" >
               <h1 className=' w-full '> Programs</h1>
