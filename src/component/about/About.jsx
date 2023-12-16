@@ -10,10 +10,10 @@ const About = () => {
     referrerpolicy="no-referrer-when-downgrade" className='flex h-full justify-center items-center md:text-sm text-sm text-[white]'><h1>Contact US</h1></iframe>
           </div>
         <div className="md:full w-[100%] bg-[black] md:pt-0  md:min-h-3/4 h-4/5 flex md:flex-row flex-col m-auto justify-center items-center">
-        <div className="md:w-1/3 w-full h-[25vh] md:h-full flex justify-center items-center">
-            <img src={kosunti} alt="" className='w-[30vw] md:h-1/2 '/>
+        <div className="md:w-1/3 w-full h-[15vh] md:h-full flex justify-center items-center">
+            <img src={kosunti} alt="" className='w-[30vw] md:h-1/2 h-[10vh]'/>
         </div>
-             <div className="md:w-2/3 pb-[5vh] md:pb-0 w-full md:h- max-h-full flex flex-col justify-center item-center">
+             <div className="md:w-2/3 pb-[3vh] md:pb-0 w-full md:h- max-h-full flex flex-col justify-center item-center">
               <div className="w-full h-full flex flex-col justify-center md:items-start items-center">
                 <h1 className="text-[white] md:text-xl text-md md:pt-4">About</h1>
               </div>
