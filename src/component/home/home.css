@@ -1,30 +1,34 @@
 
 
 #bg{
-    background-image: 
-    url('../home/mountain1.jpeg'),
+    background-image:
+    url('https://images.openai.com/static-rsc-4/fJTFWCCNTEgitfIjP2wtCXvx3qugFEbRNl750ZU_t07-5RMybWylyuniDnPA7qbTcwLyFkJkAEXLaFgFqMVfXTZ8ULYXftnMjdZQdo43njUZltNgYaBsaZdFyB2XjDOl-hYKgv8d6Y_mq-CM34Nnn2UqI0zeXialdQlVhjTKoehxSaii7AS5l7YXWx3fLnpv?purpose=inline'),
     url('../home/mountain2.jpeg'),
     url('../home/mountain3.jpeg'),
     url('../home/mountain4.jpeg'),
     url('../home/mountain5.jpeg');
     background-size: cover;
-    background-position:center; 
+    background-position:center;
     animation: change 100s infinite linear;
 }
 @keyframes change{
     0%{
-        background-image: url('../home/mountain1.jpeg');
+        background-image: url('https://images.openai.com/static-rsc-4/bGeFnugc-zFKKP0pTYAxtdxd7eNt3JF06CTU_6Hmlzq3JhEpK15efNOWTrbhtnwZghqEEM1gudf6oKg9j1vR6AeFCWapdLLkh0hsOzjwVPXM4Fmi54fA0TXUsgtSPTdS96BuNvX4t0u0JEP2k9lnhVHzRHK8cF3InqvDBeRd4_RBxigjaWyyR9zScx9U5LM1?purpose=fullsize');
     }
     20%{
-        background-image: url('../home/mountain2.jpeg');
+        background-image: url('https://thumbs.dreamstime.com/b/rock-landscape-top-table-mountain-cape-town-south-africa-37040337.jpg');
     }
     40%{
-        background-image: url('../home/mountain3.jpeg');
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWh9tK3M7byHpuhYIeEcVsjQKh3RVIEtVkQ6zl_PQRgA&s=10');
     }
     60%{
-        background-image: url('../home/mountain4.jpeg');
+        background-image: url('mountain3.jpeg');
     }
     80%{
-        background-image: url('../home/mountain5.jpeg');;
+        background-image: url('https://thumbs.dreamstime.com/b/rock-landscape-top-table-mountain-cape-town-south-africa-37040337.jpg');;
     }
+}
+.home p{
+        color:black;
+        font-size: 20px;
 }

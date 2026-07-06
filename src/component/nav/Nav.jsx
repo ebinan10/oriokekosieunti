@@ -16,13 +16,13 @@ const Nav = () => {
 
 
       const [menuBtn, setMenuBtn] = useState(cancel)
-      const [bgNavlink, setBgNavlink  ] = useState(`md:w-[20%] none h-[6vh] flex 
+      const [bgNavlink, setBgNavlink  ] = useState(`md:w-[20%] none h-[6vh] flex  z-[100]
        text-[white] items-center  `)
-       const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex bg-[white]
+       const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex bg-[white] z-[100]
        text-[black] rounded-md bg-opacity-40 items-center `)
-       const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[orange] flex justify-center 
+       const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[orange] flex justify-center z-[100]
        items-center text-center z-100 items-center bg-[#ccc] rounded-lg`)
-       const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center 
+       const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center z-[100]
        items-center text-center items-center rounded-md`)
 
      const andleMenu = () =>{
@@ -38,7 +38,7 @@ const Nav = () => {
 
   return (
     <>
-    <div className='w-full md:fixed top-0 md:min-h-[10vh] z-100 md:mb-[20vh] bg-[black] 
+    <div className='w-full md:fixed top-0 md:min-h-[10vh] z-[100] md:mb-[20vh] bg-[black]
     md:bg-opacity-40 bg-opacity-80 max-h-[26vh] flex justify-end md:flex-row flex-col items-end'>
        <section className=" md:hidden md:w-0  h-[6vh] mt-0 flex justify-end items-center mx-auto my-auto w-full" 
        id='top-nav'>
@@ -95,7 +95,7 @@ const Nav = () => {
   </section>
   
         
-        <div className="md:min-w-[60%] z-0 w-full md:mb-0  relative h-full md:gap-0 gap-2 flex flex-col justify-evenly">
+        <div className="md:min-w-[60%] z-100 w-full md:mb-0  relative h-full md:gap-0 gap-2 flex flex-col justify-evenly">
           
           <div className="md:w-full h-[11vh]  hidden md:flex items-center  justify-center">
           <div className="w-[110px] h-[60px] mr-8  bg-[black] rounded-full flex justify-center items-center ">
