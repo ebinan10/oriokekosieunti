@@ -44,7 +44,7 @@ const Home = () => {
                 <div className="grid gap-12 md:grid-cols-2 md:items-center">
                   {/* Left */}
                   <div>
-                    <h2 className="mb-6 text-sm md:text-md font-bold text-white">
+                    <h2 className="mb-6 text-md md:text-lg font-bold text-white">
                       Welcome to Mountain of Possibility
                     </h2>
 
