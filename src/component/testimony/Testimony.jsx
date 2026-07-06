@@ -11,6 +11,7 @@ const Testimony = () => {
                 width="100%" height="100%" style={{border:"0"}} allowFullScreen="" loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade" 
                 className='flex h-full justify-center items-center text-[white]'>
+                <h1>Testimony</h1>
                 </iframe> 
             </div> 
             <div className="w-full min-h-[50vh] pb-6 bg-[black] gap-2 flex flex-wrap justify-evenly items-center">
