@@ -5,8 +5,6 @@ import {  } from '@fortawesome/free-solid-svg-icons'
 import Facebook from './facebook.svg'
 import instagram from './instagram-icon.svg'
 import koseuntiLogo from '../images/koseuntiLogo.jpg'
-// import { Link } from 'react-router-dom'
-import  { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 

@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
-import { NavLink, useLocation, useRouteMatch } from 'react-router-dom'
+import { NavLink, useLocation} from 'react-router-dom'
 import './nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faHome, faPhone,
   faQuestion,  } from '@fortawesome/free-solid-svg-icons'
 import koseuntiLogo from '../images/koseuntiLogo.jpg'
-import amburger from '../icon/menu.png'
 import cancel from '../icon/cancel.png'
 
 const Nav = () => {
@@ -14,8 +13,7 @@ const Nav = () => {
       const pathname  = location.pathname
 
 
-      const [menuBtn, setMenuBtn] = useState(cancel)
-      const [bgNavlink, setBgNavlink  ] = useState(`md:w-[20%] none h-[6vh] flex  z-[100]
+      const [bgNavlink ] = useState(`md:w-[20%] none h-[6vh] flex  z-[100]
        text-[white] items-center  `)
        const [activeLink  ] = useState(`md:w-[20%] none h-[6vh] flex bg-[white] z-[100]
        text-[black] rounded-md bg-opacity-40 items-center `)
@@ -93,12 +91,12 @@ const Nav = () => {
               </div>
             <div className=" md:w-full text-sm h-full flex justify-center items-center"> 
               
-              <NavLink className={pathname =='/'? activeLink:bgNavlink} to="/">     
+              <NavLink className={pathname ==='/'? activeLink:bgNavlink} to="/">
               <h1 className='ml-[3vw] w-full '>Home</h1>
               <FontAwesomeIcon icon={faHome} className='w-1/2 h-3 mr-2'/>
               </NavLink>
              
-              <NavLink className={pathname ==='/contact'? activeLink:bgNavlink} to="/contact">
+              <NavLink className={pathname === '/contact'? activeLink:bgNavlink} to="/contact">
                <h1 className='ml-[3vw] w-full '> Contact</h1>
               <FontAwesomeIcon icon={faPhone} className='w-1/2 h-3  mr-2'/>
               </NavLink>
