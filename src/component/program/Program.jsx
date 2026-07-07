@@ -1,6 +1,4 @@
 import React from 'react'
-import { Data } from './Data'
-import priase from '../images/praiseSession.jpeg'
 
 const Program = () => {
   return (
@@ -41,7 +39,7 @@ const Program = () => {
            <br /></p>
         </div>   
         <div className=" w-[80%] flex flex-col justify-center items-center my-6 gap-1 " >
-       {/* <p className='text-justify text-base-100 md:text-md text-sm font-bold mt-2'>  Monthly Programs at Mountain:</p> */}
+
        <h1 className='text-[white] text-lg md:text-lg  text-'> The Monthly Programs in the mountain includes the following:
         </h1><br />
          <p className='text-justify text-base-100 md:text-md text-sm'> 

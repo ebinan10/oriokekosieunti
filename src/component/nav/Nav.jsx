@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 import { NavLink, useLocation, useRouteMatch } from 'react-router-dom'
 import './nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faContactBook, faContactCard, faHome, faPhone, 
-  faQuestion, faRightToBracket, faUser, faUserPlus } from '@fortawesome/free-solid-svg-icons'
-import phoneLogo from '../icon/pngwing.com (1).png'
+import {  faHome, faPhone,
+  faQuestion,  } from '@fortawesome/free-solid-svg-icons'
 import koseuntiLogo from '../images/koseuntiLogo.jpg'
 import amburger from '../icon/menu.png'
 import cancel from '../icon/cancel.png'
@@ -18,23 +17,14 @@ const Nav = () => {
       const [menuBtn, setMenuBtn] = useState(cancel)
       const [bgNavlink, setBgNavlink  ] = useState(`md:w-[20%] none h-[6vh] flex  z-[100]
        text-[white] items-center  `)
-       const [activeLink, setActive  ] = useState(`md:w-[20%] none h-[6vh] flex bg-[white] z-[100]
+       const [activeLink  ] = useState(`md:w-[20%] none h-[6vh] flex bg-[white] z-[100]
        text-[black] rounded-md bg-opacity-40 items-center `)
-       const [sgNavlink, setSgNavlink  ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[orange] flex justify-center z-[100]
+       const [sgNavlink ] = useState(`w-full md:hidden bg-opacity-20 h-[6vh] text-[orange] flex justify-center z-[100]
        items-center text-center z-100 items-center bg-[#ccc] rounded-lg`)
-       const [gNavlink, setGNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center z-[100]
+       const [gNavlink  ] = useState(`w-full md:hidden  h-[6vh] text-[white] flex justify-center z-[100]
        items-center text-center items-center rounded-md`)
 
-     const andleMenu = () =>{
-      console.log('object');
-        if(menuBtn===amburger){
-          setMenuBtn(cancel)  
 
-        }
-        else{
-          setMenuBtn(amburger)
-        }
-     }
 
   return (
     <>

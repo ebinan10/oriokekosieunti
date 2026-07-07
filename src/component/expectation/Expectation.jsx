@@ -1,6 +1,4 @@
 import React from 'react'
-import { Data } from './Data'
-import priase from '../images/praiseSession.jpeg'
 import logo from '../images/koseuntiLogo.jpg'
 const Expectation = () => {
   return (

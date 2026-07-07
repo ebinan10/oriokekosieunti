@@ -1,5 +1,3 @@
-import React, { useState } from 'react'
-import axios from 'axios';
 import kosunti from '../images/koseuntiLogo.jpg'
 
 const Contact = () => {

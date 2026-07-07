@@ -1,12 +1,8 @@
 import React from 'react'
 import './footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  } from '@fortawesome/free-solid-svg-icons'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
-import Twitter from './twitter (1).svg'
+
 import Facebook from './facebook.svg'
-import Youtube from './youtube.svg'
-import Linkedin from './linkedin.svg'
 import instagram from './instagram-icon.svg'
 import koseuntiLogo from '../images/koseuntiLogo.jpg'
 // import { Link } from 'react-router-dom'

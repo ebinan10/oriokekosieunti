@@ -1,6 +1,5 @@
 import React from 'react'
 import { Data } from './Data'
-import galary13 from '../images/congregationListening.jpeg'
 import logo from '../images/koseuntiLogo.jpg'
 
 const Gallary = () => {

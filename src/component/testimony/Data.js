@@ -1,6 +1,3 @@
-import galary1 from '../images/babaAtEye.jpeg'
-import galary2 from '../images/babaChating.jpeg'
-import galary3 from '../images/babaAtEye.jpeg'
 
    export const Data =[
     {
