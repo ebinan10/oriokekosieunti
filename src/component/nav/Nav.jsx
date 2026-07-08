@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faHome, faPhone,
   faQuestion,  } from '@fortawesome/free-solid-svg-icons'
 import koseuntiLogo from '../images/koseuntiLogo.jpg'
-import cancel from '../icon/cancel.png'
 
 const Nav = () => {
 
